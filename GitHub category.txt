@@ -1,0 +1,12 @@
+GitHub-এ category ঠিক রাখতে
+allchannelking.m3u8-এ group-title ব্যবহার করুন:
+
+#EXTINF:-1 group-title="Sports" ,Channel Name
+#EXTINF:-1 group-title="Bangladesh" ,Channel Name
+#EXTINF:-1 group-title="Live TV" ,Other channels
+Sports / Bangladesh সরাসরি সেই category-তে যাবে। Live TV থাকলে channel নাম দিয়ে News, Entertainment ইত্যাদি আলাদা হবে।
+
+ফাইল
+lib/config/channel_categories.dart — সব category, emoji, রঙ, নিয়ম
+Home/Categories dynamic — channel না থাকলে খালি category দেখাবে না
+App refresh করুন (pull-to-refresh) — নতুন category split দেখতে পাবেন। আরও category চাইলে GitHub-এ group-title বাড়ান অথবা বলুন কোন নামগুলো কোন category-তে চান।
