@@ -1,0 +1,1409 @@
+#EXTM3U
+#EXTINF:-1 group-title="Sports" ,Starsportshindiii
+https://starsportshindiii.pages.dev/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Wand
+https://playboxtv.developed-for-pishow.workers.dev/wanda.m3u8
+#EXTINF:-1 group-title="Live TV" ,AndFlixHD
+http://212.102.34.8:9080/AndFlixHD/video.m3u8
+#EXTINF:-1 group-title="Live TV" ,56
+http://103.159.180.34:5001/live/562.m3u8
+#EXTINF:-1 group-title="Live TV" ,Cctv1M
+http://63.141.239.226:81/live/cctv1md.m3u8?tm=1779280800&key=c6e9fb42092f7494c6e8142d46271002
+#EXTINF:-1 group-title="Live TV" ,A01B
+http://149.71.34.166:8002/play/a01b/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A017
+http://149.71.34.166:8002/play/a017/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Stp1H
+http://103.161.153.165:8000/play/stp1h/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A01K
+http://149.71.34.166:8000/play/a01k/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,87
+http://103.159.180.34:5001/live/875.m3u8
+#EXTINF:-1 group-title="Sports" ,Eurosport HD
+http://151.80.18.177:86/Eurosport_HD/index.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,8080
+http://alvetv.com/moviebanglatv/8080/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,16
+http://103.159.180.34:5001/live/165.m3u8
+#EXTINF:-1 group-title="Live TV" ,18
+http://103.159.180.34:5001/live/185.m3u8
+#EXTINF:-1 group-title="Live TV" ,16 2
+http://103.159.180.34:5001/live/166.m3u8
+#EXTINF:-1 group-title="Live TV" ,62
+http://103.159.180.34:5001/live/625.m3u8
+#EXTINF:-1 group-title="Live TV" ,347
+http://103.159.180.34:5001/live/3476.m3u8
+#EXTINF:-1 group-title="Live TV" ,57
+http://103.159.180.34:5001/live/573.m3u8
+#EXTINF:-1 group-title="Live TV" ,28
+http://103.159.180.34:5001/live/286.m3u8
+#EXTINF:-1 group-title="Live TV" ,56 2
+http://103.159.180.34:5001/live/566.m3u8
+#EXTINF:-1 group-title="Live TV" ,16 3
+http://103.159.180.34:5001/live/164.m3u8
+#EXTINF:-1 group-title="Live TV" ,16 4
+http://103.159.180.34:5001/live/167.m3u8
+#EXTINF:-1 group-title="Live TV" ,25
+http://103.159.180.34:5001/live/250.m3u8
+#EXTINF:-1 group-title="Live TV" ,58
+http://103.159.180.34:5001/live/585.m3u8
+#EXTINF:-1 group-title="Live TV" ,National Geo HD
+http://151.80.18.177:86/National_Geo_HD/index.m3u8
+#EXTINF:-1 group-title="Sports" ,BeinSport
+http://99.27.51.147:8080/BeinSport/index.m3u8
+#EXTINF:-1 group-title="Sports" ,BeinSport3
+http://99.27.51.147:8080/BeinSport3/index.m3u8
+#EXTINF:-1 group-title="Sports" ,STARSPORTS1
+http://41.205.93.154/STARSPORTS1/index.m3u8
+#EXTINF:-1 group-title="Sports" ,Test Arenasport
+http://88.212.15.19/live/test_arenasport/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Test Arenasport Dva
+http://88.212.15.19/live/test_arenasport_dva/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Test Sport1 25P
+http://88.212.15.19/live/test_sport1_25p/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Test Sport 2
+http://88.212.15.19/live/test_sport_2/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Test Ctsport 25P
+http://88.212.15.19/live/test_ctsport_25p/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Sport1
+http://185.132.134.159:80/sport1/index.m3u8
+#EXTINF:-1 group-title="Sports" ,Sport2
+http://185.132.134.159:80/sport2/index.m3u8
+#EXTINF:-1 group-title="Sports" ,Sport3
+http://185.132.134.159:80/sport3/index.m3u8
+#EXTINF:-1 group-title="Sports" ,Sport4
+http://185.132.134.159:80/sport4/index.m3u8
+#EXTINF:-1 group-title="Sports" ,Sport5
+http://185.132.134.159:80/sport5/index.m3u8
+#EXTINF:-1 group-title="Sports" ,Sport6
+http://185.132.134.159:80/sport6/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mon
+http://185.46.48.18:80/match/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Sports" ,Infosport
+http://212.102.60.80/Infosport/index.m3u8
+#EXTINF:-1 group-title="Sports" ,Canal+ sport HD
+http://151.80.18.177:86/Canal+_sport_HD/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Machtv
+http://tv.tuva.ru/machtv/index.m3u8
+#EXTINF:-1 group-title="Sports" ,Sportinghd.Smil
+http://unlimited6-cl.dps.live/sportinghd/sportinghd.smil/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Mon 2
+http://198.195.239.50:8095/Tsports/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Sports" ,WiLLow
+http://198.195.239.50:8095/WiLLow/index.m3u8
+#EXTINF:-1 group-title="Sports" ,PTV kutta
+http://198.195.239.50:8095/PTV-kutta/video.m3u8
+#EXTINF:-1 group-title="Live TV" ,A04M
+http://103.161.153.165:8000/play/a04m/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Stp2H
+http://103.161.153.165:8000/play/stp2h/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Starspsl1Hd
+http://103.161.153.165:8000/play/starspsl1hd/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Starspsel2
+http://103.161.153.165:8000/play/starspsel2/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,151
+http://103.175.73.12:8080/live/151/151_0.m3u8
+#EXTINF:-1 group-title="Sports" ,9258
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9258/index.m3u8
+#EXTINF:-1 group-title="Sports" ,9289
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9289/index.m3u8
+#EXTINF:-1 group-title="Sports" ,7337
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/7337/index.m3u8
+#EXTINF:-1 group-title="Sports" ,9334
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9334/index.m3u8
+#EXTINF:-1 group-title="Sports" ,9155
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9155/index.m3u8
+#EXTINF:-1 group-title="Sports" ,9293
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9293/index.m3u8
+#EXTINF:-1 group-title="Sports" ,9310
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9310/index.m3u8
+#EXTINF:-1 group-title="Sports" ,9314
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/9314/index.m3u8
+#EXTINF:-1 group-title="Sports" ,6546
+http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/6546/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Tnt
+http://46.225.94.157/hls/tnt/index.m3u8
+#EXTINF:-1 group-title="Sports" ,6566
+http://qe7abbli.megatv.fun/iptv/LBHN7YM3AWPMFD8DNH6SD3GR/6566/index.m3u8
+#EXTINF:-1 group-title="Sports" ,2506
+http://qe7abbli.megatv.fun/iptv/LBHN7YM3AWPMFD8DNH6SD3GR/2506/index.m3u8
+#EXTINF:-1 group-title="Sports" ,6564
+http://qe7abbli.megatv.fun/iptv/LBHN7YM3AWPMFD8DNH6SD3GR/6564/index.m3u8
+#EXTINF:-1 group-title="Sports" ,19054
+http://75be7132.rostelekom.xyz/iptv/R3A7B6MZZFDCUL/19054/index.m3u8
+#EXTINF:-1 group-title="Sports" ,19146
+http://y3fqd48g.megatv.fun/iptv/NRLXRWSBWBPLN4/19146/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Espn
+http://46.225.94.157/hls/espn/index.m3u8
+#EXTINF:-1 group-title="Sports" ,Eurosport 2 HD
+http://151.80.18.177:86/Eurosport_2_HD/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mon 3
+http://198.195.239.50:8095/nagorik/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mon 4
+http://198.195.239.50:8095/News24/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mon 5
+http://198.195.239.50:8095/BTV/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Sports" ,C0390
+http://iptvcasomsapi.jprdigital.in/x-media/C0390/master.m3u8
+#EXTINF:-1 group-title="Live TV" ,A05B
+http://103.161.153.165:8000/play/a05b/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A00S
+http://103.161.153.165:8000/play/a00s/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A00R
+http://103.161.153.165:8000/play/a00r/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,12
+http://103.175.73.12:8080/live/12/12_0.m3u8
+#EXTINF:-1 group-title="Live TV" ,MBCBollywood
+http://93.184.10.248/MBCBollywood/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,42
+http://103.175.73.12:8080/live/42/42_0.m3u8
+#EXTINF:-1 group-title="Live TV" ,Starmovies
+http://103.175.242.10:8080/starmovies/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,437
+http://103.175.73.12:8080/live/437/437_0.m3u8
+#EXTINF:-1 group-title="Live TV" ,A05E
+http://103.161.153.165:8000/play/a05e/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,14
+http://103.175.73.12:8080/live/14/14_0.m3u8
+#EXTINF:-1 group-title="Live TV" ,165
+http://103.180.212.191:3500/live/1657.m3u8
+#EXTINF:-1 group-title="Live TV" ,341
+http://103.180.212.191:3500/live/3418.m3u8
+#EXTINF:-1 group-title="Sports" ,Mon 6
+http://198.195.239.50:8095/SonyAath/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Live TV" ,Placeholder
+https://placeholder.m3u8
+#EXTINF:-1 group-title="Live TV" ,Strea
+https://signed.example/cdn/stream.m3u8?token=
+#EXTINF:-1 group-title="Live TV" ,B17Adfe543354Fdd8D189B110617Cddd
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
+#EXTINF:-1 group-title="Sports" ,Mon 7
+http://198.195.239.50:8095/SonyTenSports5/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Live TV" ,202
+http://202.70.146.135:8000/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,{Id
+http://103.180.212.191:3500/live/{id}.m3u8
+#EXTINF:-1 group-title="Live TV" ,A05O
+http://202.70.146.135:8000/play/a05o/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A05Z
+http://202.70.146.135:8000/play/a05z/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A01E
+http://202.70.146.135:8000/play/a01e/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A03C
+http://202.70.146.135:8000/play/a03c/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A04N
+http://202.70.146.135:8000/play/a04n/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A01B 2
+http://202.70.146.135:8000/play/a01b/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A04C
+http://202.70.146.135:8000/play/a04c/index.m3u8
+#EXTINF:-1 group-title="Sports" ,Sports Highlights
+https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Toffee Movie
+https://bldcmprod-cdn.toffeelive.com/cdn/live/toffee_movie/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Toffee Drama
+https://bldcmprod-cdn.toffeelive.com/cdn/live/toffee_drama/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Cnn
+https://bldcmprod-cdn.toffeelive.com/cdn/live/cnn/playlist.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Somoy Tv
+https://bldcmprod-cdn.toffeelive.com/cdn/live/somoy_tv/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Independent Tv
+https://bldcmprod-cdn.toffeelive.com/cdn/live/independent_tv/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Desh Tv
+https://bldcmprod-cdn.toffeelive.com/cdn/live/desh_tv/playlist.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Jamuna Tv
+https://bldcmprod-cdn.toffeelive.com/cdn/live/jamuna_tv/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Atn News
+https://bldcmprod-cdn.toffeelive.com/cdn/live/atn_news/playlist.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Atn Bangla
+https://bldcmprod-cdn.toffeelive.com/cdn/live/atn_bangla/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Nexus Tv
+https://bldcmprod-cdn.toffeelive.com/cdn/live/nexus_tv/playlist.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Movie Bangla
+https://bldcmprod-cdn.toffeelive.com/cdn/live/movie_bangla/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mohona Tv
+https://bldcmprod-cdn.toffeelive.com/cdn/live/mohona_tv/playlist.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Anandatv
+https://bldcmprod-cdn.toffeelive.com/cdn/live/anandatv/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Bijoytv
+https://bldcmprod-cdn.toffeelive.com/cdn/live/bijoytv/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Global Tv
+https://bldcmprod-cdn.toffeelive.com/cdn/live/global_tv/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Channel S
+https://bldcmprod-cdn.toffeelive.com/cdn/live/channel_s/playlist.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Bangla Tv
+https://bldcmprod-cdn.toffeelive.com/cdn/live/bangla_tv/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Asian Tv
+https://bldcmprod-cdn.toffeelive.com/cdn/live/asian_tv/playlist.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Channel I
+https://bldcmprod-cdn.toffeelive.com/cdn/live/channel_i/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ekhon Tv
+https://bldcmprod-cdn.toffeelive.com/cdn/live/ekhon_tv/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Rajdhani Tv
+https://bldcmprod-cdn.toffeelive.com/cdn/live/rajdhani_tv/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Islamic Tv
+https://bldcmprod-cdn.toffeelive.com/cdn/live/islamic_tv/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ekattor Tv
+https://bldcmprod-cdn.toffeelive.com/cdn/live/ekattor_tv/playlist.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Bdvsnz26
+https://mprod-cdn.toffeelive.com/live/bdvsnz26/index.m3u8
+#EXTINF:-1 group-title="Sports" ,Euro Sports Hd
+https://bldcmprod-cdn.toffeelive.com/cdn/live/euro_sports_hd/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Icc Wtc Final
+https://bldcmprod-cdn.toffeelive.com/cdn/live/icc_wtc_final/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Sony Sports 1 Hd
+https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_sports_1_hd/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Sony Sports 2 Hd
+https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_sports_2_hd/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Sony Sports 5 Hd
+https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_sports_5_hd/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Ten Cricket
+https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_cricket/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Match 1
+https://mprod-cdn.toffeelive.com/live/match-1/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Match 2
+https://mprod-cdn.toffeelive.com/live/match-2/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Match 3
+https://mprod-cdn.toffeelive.com/live/match-3/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Match 4
+https://mprod-cdn.toffeelive.com/live/match-4/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Match 5
+https://mprod-cdn.toffeelive.com/live/match-5/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Match 6
+https://mprod-cdn.toffeelive.com/live/match-6/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Match 11
+https://mprod-cdn.toffeelive.com/live/match-11/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Match 12
+https://mprod-cdn.toffeelive.com/live/match-12/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Match 13
+https://mprod-cdn.toffeelive.com/live/match-13/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Match 18
+https://mprod-cdn.toffeelive.com/live/match-18/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Cartoon Network Hd
+https://bldcmprod-cdn.toffeelive.com/cdn/live/cartoon_network_hd/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Cartoon Network Sd
+https://bldcmprod-cdn.toffeelive.com/cdn/live/cartoon_network_sd/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Pogo Sd
+https://bldcmprod-cdn.toffeelive.com/cdn/live/pogo_sd/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Discovery Kids
+https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_kids/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Sonyyay
+https://bldcmprod-cdn.toffeelive.com/cdn/live/sonyyay/playlist.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Zee Bangla
+https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_bangla/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Zee Anmol
+https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_anmol/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Zing Sd
+https://bldcmprod-cdn.toffeelive.com/cdn/live/zing_sd/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Hum Tv
+https://bldcmprod-cdn.toffeelive.com/cdn/live/hum_tv/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Hum Masala
+https://bldcmprod-cdn.toffeelive.com/cdn/live/hum_masala/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Hum Sitaray
+https://bldcmprod-cdn.toffeelive.com/cdn/live/hum_sitaray/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Sonyaath
+https://bldcmprod-cdn.toffeelive.com/cdn/live/sonyaath/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Sonyentertainmnt Hd
+https://bldcmprod-cdn.toffeelive.com/cdn/live/sonyentertainmnt_hd/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Sony Entertainment
+https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_entertainment/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,B4U Music
+https://bldcmprod-cdn.toffeelive.com/cdn/live/b4u_music/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Sonysab Hd
+https://bldcmprod-cdn.toffeelive.com/cdn/live/sonysab_hd/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Zee Tv Hd
+https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_tv_hd/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Sony Max Hd
+https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_max_hd/playlist.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Zee Bangla Cinema
+https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_bangla_cinema/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Zee Bollywood
+https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_bollywood/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Zee Action
+https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_action/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Sony Max
+https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_max/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Sonypix Hd
+https://bldcmprod-cdn.toffeelive.com/cdn/live/sonypix_hd/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Zee Cafe Hd
+https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_cafe_hd/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,B4U Movies
+https://bldcmprod-cdn.toffeelive.com/cdn/live/b4u_movies/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Sonymax 2
+https://bldcmprod-cdn.toffeelive.com/cdn/live/sonymax_2/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Zee Cinema Hd
+https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_cinema_hd/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Tlc Hd
+https://bldcmprod-cdn.toffeelive.com/cdn/live/tlc_hd/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Tlc Sd
+https://bldcmprod-cdn.toffeelive.com/cdn/live/tlc_sd/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Animal Planet Sd
+https://bldcmprod-cdn.toffeelive.com/cdn/live/animal_planet_sd/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Animal Planet Hd
+https://bldcmprod-cdn.toffeelive.com/cdn/live/animal_planet_hd/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Sonybbc Earth Hd
+https://bldcmprod-cdn.toffeelive.com/cdn/live/sonybbc_earth_hd/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Discovery Hd
+https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_hd/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Discovery Sd
+https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_sd/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Discovery Science
+https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_science/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Discovery Turbo
+https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_turbo/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Discovary Investigation Hd
+https://bldcmprod-cdn.toffeelive.com/cdn/live/discovary_investigation_hd/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,And Tv Hd
+https://bldcmprod-cdn.toffeelive.com/cdn/live/and_tv_hd/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Andpicture Hd
+https://bldcmprod-cdn.toffeelive.com/cdn/live/andpicture_hd/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Tsports
+http://198.195.239.50:8095/Tsports/index.m3u8
+#EXTINF:-1 group-title="Sports" ,StarSports2
+http://198.195.239.50:8095/StarSports2/index.m3u8
+#EXTINF:-1 group-title="Sports" ,StarSportsSelect1
+http://198.195.239.50:8095/StarSportsSelect1/index.m3u8
+#EXTINF:-1 group-title="Sports" ,StarSportsSelect2
+http://198.195.239.50:8095/StarSportsSelect2/index.m3u8
+#EXTINF:-1 group-title="Sports" ,SonyTenSports2
+http://198.195.239.50:8095/SonyTenSports2/index.m3u8
+#EXTINF:-1 group-title="Sports" ,SonyTenSports5
+http://198.195.239.50:8095/SonyTenSports5/index.m3u8
+#EXTINF:-1 group-title="Sports" ,Eurosport
+http://198.195.239.50:8095/Eurosport/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Nagorik
+http://198.195.239.50:8095/nagorik/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,News24
+http://198.195.239.50:8095/News24/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,JalshaMovies
+http://198.195.239.50:8095/JalshaMovies/index.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,ZeeBanglaCinema
+http://198.195.239.50:8095/ZeeBanglaCinema/index.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,ColorsBanglaChinema
+http://198.195.239.50:8095/ColorsBanglaChinema/index.m3u8
+#EXTINF:-1 group-title="Sports" ,SonyAath
+http://198.195.239.50:8095/SonyAath/index.m3u8
+#EXTINF:-1 group-title="Sports" ,SonyMAX
+http://198.195.239.50:8095/SonyMAX/index.m3u8
+#EXTINF:-1 group-title="Sports" ,SonyTv
+http://198.195.239.50:8095/SonyTv/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,StarPlus
+http://198.195.239.50:8095/StarPlus/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,StarGold
+http://198.195.239.50:8095/StarGold/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,StarMovies
+http://198.195.239.50:8095/StarMovies/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,ZeeTV
+http://198.195.239.50:8095/ZeeTV/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Discovery
+http://198.195.239.50:8095/Discovery/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,NationalGeographic
+http://198.195.239.50:8095/NationalGeographic/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,CartoonNetwork
+http://198.195.239.50:8095/CartoonNetwork/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,DiscoveryKids
+http://198.195.239.50:8095/DiscoveryKids/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A0I7
+http://179.60.224.196:8000/play/a0i7/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,5
+http://cdntv.online/low/9mlxywika2/56.m3u8
+#EXTINF:-1 group-title="Sports" ,2531
+http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/2531/index.m3u8
+#EXTINF:-1 group-title="Sports" ,19158
+http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/19158/index.m3u8
+#EXTINF:-1 group-title="Sports" ,2532
+http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/2532/index.m3u8
+#EXTINF:-1 group-title="Sports" ,7062
+http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/7062/index.m3u8
+#EXTINF:-1 group-title="Sports" ,2534
+http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/2534/index.m3u8
+#EXTINF:-1 group-title="Sports" ,2535
+http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/2535/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ca040
+http://200.115.120.1:8000/play/ca040/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,559
+http://145.239.5.177:80/559/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,102
+http://cdntv.online/low/9mlxywika2/1021.m3u8
+#EXTINF:-1 group-title="Live TV" ,102 2
+http://cdntv.online/low/9mlxywika2/1022.m3u8
+#EXTINF:-1 group-title="Live TV" ,5 2
+http://cdntv.online/low/9mlxywika2/55.m3u8
+#EXTINF:-1 group-title="Live TV" ,110
+http://185.57.68.33:8091/110/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,5 3
+http://cdntv.online/low/9mlxywika2/57.m3u8
+#EXTINF:-1 group-title="Live TV" ,110 2
+http://185.57.68.33:80/110/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ch004 720
+http://217.174.225.146/hls/ch004_720/index.m3u8
+#EXTINF:-1 group-title="Sports" ,Susp Spor
+https://tva.in.ua/live/susp-sport.m3u8
+#EXTINF:-1 group-title="Sports" ,2555
+http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/2555/index.m3u8
+#EXTINF:-1 group-title="Sports" ,2561
+http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/2561/index.m3u8
+#EXTINF:-1 group-title="Sports" ,2559
+http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/2559/index.m3u8
+#EXTINF:-1 group-title="Sports" ,2560
+http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/2560/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Gpb 2Tv
+https://tv.cdn.xsg.ge/gpb-2tv/index.m3u8
+#EXTINF:-1 group-title="Sports" ,2558
+http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/2558/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ca016
+http://200.115.120.1:8000/play/ca016/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Caze T
+https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8
+#EXTINF:-1 group-title="Live TV" ,Bitrate
+https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/bitrate_3.m3u8
+#EXTINF:-1 group-title="Sports" ,playlistR1080
+https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
+#EXTINF:-1 group-title="Live TV" ,Telecost
+https://tv91.hostingnuclear.com:19360/telecosta/telecosta.m3u8
+#EXTINF:-1 group-title="Live TV" ,A0H0
+http://181.205.205.173:8888/play/a0h0/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Stream1
+https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8
+#EXTINF:-1 group-title="Live TV" ,Amg02873 Kravemedia Mtrspt1 Distrotv
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-distrotv/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Ch109
+http://iptv.prosto.tv:7000/ch109/video.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ch004 720 2
+https://alpha.tv.online.tm/legacyhls/ch004_720/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ch004 720 3
+http://217.174.225.146/legacyhls/ch004_720/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mia
+https://livetr.teleromagna.it/mia/live/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,D5036Cabf11E45Bf9D0Db410Ca135C18
+https://shls-masr-ak.akamaized.net/out/v1/d5036cabf11e45bf9d0db410ca135c18/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Radiolive
+https://rgelive.akamaized.net/hls/live/2043151/radiolive/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Live3
+https://rgelive.akamaized.net/hls/live/2043095/live3/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,A05Q
+http://45.5.119.43:4000/play/a05q/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A04G
+http://181.118.156.46:8000/play/a04g/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A01R
+http://200.10.30.241:8000/play/a01r/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,myStream
+https://deshitv.deshitv24.net/live/myStream/playlist.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Atv
+https://dbcanada.sonarbanglatv.com/azantv/atv/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Arabica
+http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Amlst:200914 1298290
+https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Hls Roku
+https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mubasher All
+https://live2.cdnbridge.tv/AlmasirahMubasher/Mubasher_All/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Hls Roku 2
+https://cdn-globecast.akamaized.net/live/eds/al_ekhbariya/hls_roku/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Hls Roku 3
+https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Alqamar
+https://streamer3.premio.link/alqamar/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Insighttv-Samsung-Us
+https://insighttv-samsung-us.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mon 8
+https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Live TV" ,Amg00426 Littledotstudio Realwild Tcl
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realwild-tcl/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Zbcatun
+https://server.zillarbarta.com/zbcatun/video.m3u8
+#EXTINF:-1 group-title="Live TV" ,streamPlaylis
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream02/streamPlaylist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Dwstream102
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Pcv
+https://padmaonline.duckdns.org:8088/pcv/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ndtvindia
+https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8
+#EXTINF:-1 group-title="Live TV" ,Live 1
+https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ndtv24X7
+https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678-b/ndtv24x7/master.m3u8
+#EXTINF:-1 group-title="Live TV" ,Chunk
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/chunks.m3u8
+#EXTINF:-1 group-title="Live TV" ,Chsukoff.Stream
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/chsukoff.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Hindihitshd
+http://146.59.253.52:8080/hindihitshd/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Rtdoc
+https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Chunklist B192800
+https://aasthaott.akamaized.net/110923/smil:arihant.smil/chunklist_b1928000.m3u8
+#EXTINF:-1 group-title="Live TV" ,Rtnews
+https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Amg00864 Shemarooenterta Shemabollywood Ono
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Cgtn.Stream
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/cgtn.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Amg01076 Lightningintern Actionhollywood Samsungnz
+https://amg01076-lightningintern-actionhollywood-samsungnz-82rry.amagi.tv/playlist/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ndtv24X7 2
+https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
+#EXTINF:-1 group-title="Live TV" ,Amg01412 Xiaomiasia Yrfmusic Xiaomi
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mon 9
+https://thelegitpro.in/pntv/rplusnews24x7/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Live TV" ,Liveabr
+https://live-dangal.akamaized.net/liveabr/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mono.T
+https://mcncdndigital.com/balleballetv/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Live TV" ,Epic
+http://epiconvh.akamaized.net/live/epic/master.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mytime-Tcl
+https://mytime-tcl.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mono.T 2
+https://server.zillarbarta.com/zbcatun/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Live TV" ,Bh
+http://15.235.185.236/hls/bhi.m3u8
+#EXTINF:-1 group-title="Live TV" ,Hncfree-Samsungau
+https://hncfree-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Lightning-Tracesport-Samsungau
+https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mon 10
+http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Live TV" ,RTL9
+http://151.80.18.177:86/RTL9/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Histoire
+http://151.80.18.177:86/Histoire/index.m3u8
+#EXTINF:-1 group-title="Sports" ,TF1 HD
+http://151.80.18.177:86/TF1_HD/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Chunklist B312800
+http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
+#EXTINF:-1 group-title="Live TV" ,Rplusnews24X7
+https://thelegitpro.in/pntv/rplusnews24x7/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Bbc World Service News Interne
+https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/audio_syndication_vlow_sbr_v1/cfs/bbc_world_service_news_internet.m3u8
+#EXTINF:-1 group-title="Live TV" ,Musi
+https://30a-tv.com/music.m3u8
+#EXTINF:-1 group-title="Live TV" ,Liveabr 2
+https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Animal Planet 158 3
+https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/Animal-Planet-158-3/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Digitalfashion
+http://115.187.41.216:8080/hls/digitalfashion/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Fox-Foxnewsnow-Vizio
+https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Output
+https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Output 2
+https://owrcovcrpy.gpcdn.net/bpk-tv/1713/output/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Output 3
+https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Output 4
+https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Output 5
+https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Output 6
+https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Output 7
+https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Output 8
+https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Output 9
+https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Output 10
+https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Output 11
+https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Etvlives
+https://ekusheyserver.com/etvlivesn.m3u8
+#EXTINF:-1 group-title="Live TV" ,Output 12
+https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ravc7gPCZpxk
+https://tvsen1.aynaott.com/Ravc7gPCZpxk/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Output 13
+https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Output 14
+https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Channels.Stream
+https://app.ncare.live/live-orgin/channels.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Jagonews24.Stream
+https://app.ncare.live/live-orgin/jagonews24.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mnews24.Stream
+https://app.ncare.live/live-orgin/mnews24.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Nrb Eu.Stream
+https://app.ncare.live/live-orgin/nrb-eu.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Tvoneuksni.Stream
+https://app.ncare.live/live-orgin/tvoneuksni.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Onlymusic
+https://livestream.unlimitedcdn.com/onlymusic/index.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Chunk 2
+https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8
+#EXTINF:-1 group-title="Live TV" ,Amg01448 Samsungin Abpananda Samsungin
+https://amg01448-samsungin-abpananda-samsungin-ad-pw.amagi.tv/playlist/amg01448-samsungin-abpananda-samsungin/playlist.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,24X
+http://banglajagotv.livebox.co.in:80/banglajagohls/24x7.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Amg01448 Samsungin News18Bangla Samsungin
+https://amg01448-samsungin-news18bangla-samsungin-ad-qy.amagi.tv/playlist/amg01448-samsungin-news18bangla-samsungin/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Amg01448 Samsungin Cnnnow Samsungin
+https://amg01448-samsungin-cnnnow-samsungin-4npqg.amagi.tv/playlist/amg01448-samsungin-cnnnow-samsungin/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,143
+http://103.175.73.12:8080/live/143/143_0.m3u8
+#EXTINF:-1 group-title="Live TV" ,SaudiQuran 142
+https://vodzong.mjunoon.tv:8087/streamtest/SaudiQuran-142/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,B09Bbb8D9B684763Be4211B088168De7
+https://sbc-prod-dub-enc.edgenextcdn.net/out/v1/b09bbb8d9b684763be4211b088168de7/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,SaudiSunnah 141
+https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/SaudiSunnah-141/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,SaudiSunnah 141 2
+https://vodzong.mjunoon.tv:8087/streamtest/SaudiSunnah-141/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Makkahtv.Stream
+https://app.ncare.live/streams/makkahtv.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,782
+http://82.212.74.98:8000/live/hls/7823.m3u8
+#EXTINF:-1 group-title="Live TV" ,TBN24 M
+http://cdn01.palki.tv/live/TBN24-M/index.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Dbtv
+https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,UC0V3IJCnr6ZNjB9t GLhFF
+https://ythls.armelin.one/channel/UC0V3IJCnr6ZNjB9t_GLhFFA.m3u8
+#EXTINF:-1 group-title="Live TV" ,UC200cnk8CCEkNAIubWtDsL
+https://ythls.armelin.one/channel/UC200cnk8CCEkNAIubWtDsLw.m3u8
+#EXTINF:-1 group-title="Live TV" ,UCi aUVwZR5U8GBNOy0CC4w
+https://ythls.armelin.one/channel/UCi-aUVwZR5U8GBNOy0CC4ww.m3u8
+#EXTINF:-1 group-title="Live TV" ,UCATUkaOHwO9EP W87zCiPb
+https://ythls.armelin.one/channel/UCATUkaOHwO9EP_W87zCiPbA.m3u8
+#EXTINF:-1 group-title="Live TV" ,UCHLqIOMPk20w 6cFgkA90j
+https://ythls.armelin.one/channel/UCHLqIOMPk20w-6cFgkA90jw.m3u8
+#EXTINF:-1 group-title="Live TV" ,UCZMKZS3L9GfhcFkMyBRoVF
+https://ythls.armelin.one/channel/UCZMKZS3L9GfhcFkMyBRoVFg.m3u8
+#EXTINF:-1 group-title="Live TV" ,Deeptotv
+https://byphdgllyk.gpcdn.net/hls/deeptotv/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Livestream
+http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
+#EXTINF:-1 group-title="Live TV" ,UCqyt55f3byoK8rjgO0LBe4
+https://ythls.armelin.one/channel/UCqyt55f3byoK8rjgO0LBe4Q.m3u8
+#EXTINF:-1 group-title="Live TV" ,UCWVqdPTigfQ cSNwG7O9Me
+https://ythls.armelin.one/channel/UCWVqdPTigfQ-cSNwG7O9MeA.m3u8
+#EXTINF:-1 group-title="Live TV" ,0 1
+https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Amg01448 Samsungin Tv9Bangla Samsungin
+https://amg01448-samsungin-tv9bangla-samsungin-9lgnh.amagi.tv/playlist/amg01448-samsungin-tv9bangla-samsungin/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,UC YEeUix2bvVOuLxEUw2Sn
+https://ythls.armelin.one/channel/UC_YEeUix2bvVOuLxEUw2SnQ.m3u8
+#EXTINF:-1 group-title="Live TV" ,Tribetv
+https://server.livelegitpro.in:9899/tribetv/tribetv/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,5A8993709Ea19
+http://138.68.138.119:8080/live/5a8993709ea19/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,5D9A537C64B9C
+http://68.183.41.209:8080/live/5d9a537c64b9c/index.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Noortvuk
+https://sscsott.com/srt/noortvuk/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mqtv
+https://5bf7b725107e5.streamlock.net/mqtv/mqtv/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Tv9
+https://5bf7b725107e5.streamlock.net/tv9/tv9/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,102 3
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000067/1024.m3u8
+#EXTINF:-1 group-title="Sports" ,102 4
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000024/1024.m3u8
+#EXTINF:-1 group-title="Sports" ,102 5
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000021/1024.m3u8
+#EXTINF:-1 group-title="Live TV" ,134
+http://103.180.212.191:3500/live/1341.m3u8
+#EXTINF:-1 group-title="Live TV" ,134 2
+http://103.180.212.191:3500/live/1345.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mon 11
+http://198.195.239.50:8095/DiscoveryKids/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Live TV" ,Cartoon Networ
+https://s3.ideationtec.live/Cartoon_Network/Cartoon_Network.m3u8
+#EXTINF:-1 group-title="Live TV" ,51997
+http://filex.me/live/MAS101A/MAS101AABB/519973.m3u8
+#EXTINF:-1 group-title="Live TV" ,Dtv
+https://cdn.dtvusa.com/dtv/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mon 12
+https://cdn.dtvusa.com/dtv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Tv
+http://cdn.live247stream.com/atvusa/tv/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Output 15
+https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Mon 13
+http://198.195.239.50:8095/ColorsBanglaChinema/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Mon 14
+http://198.195.239.50:8095/ZeeBanglaCinema/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Sports" ,Mon 15
+http://198.195.239.50:8095/SonyMAX/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Jtv
+https://dbcanada.sonarbanglatv.com/jhankartv/jtv/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Greentv.Stream
+https://app.ncare.live/streams/greentv.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Index.Fmp
+https://cdn.streamcast.xyz/ctvusa/tracks-v1/index.fmp4.m3u8
+#EXTINF:-1 group-title="Live TV" ,Index.Fmp 2
+https://cdn.streamcast.xyz/ctvusa/index.fmp4.m3u8
+#EXTINF:-1 group-title="Live TV" ,Index
+https://d2dsoyvkr33m05.cloudfront.net/index_1.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ts Live 57
+https://mini.allinonereborn.fun/jiotv-www/app/ts_live_573.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mon 16
+http://a-edge.bliscdn.com/VisionPunjabHD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Sports" ,Raatdinbangla
+https://server.playontv.in/raatdinbangla/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mon 17
+https://legitpro.co.in/ndlive/nd24/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ekhonkolkat
+http://live.dataplayer.in:8080/live/ekhonkolkata.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Amarbangl
+http://live.dataplayer.in:8080/live/amarbangla.m3u8
+#EXTINF:-1 group-title="Live TV" ,Missiont
+http://live.dataplayer.in:8080/live/missiontv.m3u8
+#EXTINF:-1 group-title="Live TV" ,Channel
+http://hksk.dataplayer.in:8080/channel1.m3u8
+#EXTINF:-1 group-title="Live TV" ,Sunskytv
+http://live.dataplayer.in:8080/live/sunskytv1.m3u8
+#EXTINF:-1 group-title="Live TV" ,Sunskytv 2
+http://live.dataplayer.in:8080/live/sunskytv2.m3u8
+#EXTINF:-1 group-title="Live TV" ,Sunskytv 3
+http://live.dataplayer.in:8080/live/sunskytv3.m3u8
+#EXTINF:-1 group-title="Live TV" ,Sunskytv 4
+http://live.dataplayer.in:8080/live/sunskytv4.m3u8
+#EXTINF:-1 group-title="Live TV" ,Rctvdemo
+http://94.136.188.21:8000/live/rctvdemo/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Sdt
+http://15.235.187.72/hls/sdtv.m3u8
+#EXTINF:-1 group-title="Sports" ,3Mjaanbangl
+http://live.dataplayer.in:8080/live/3mjaanbangla.m3u8
+#EXTINF:-1 group-title="Live TV" ,Snbcinem
+http://103.182.83.246/hls/snbcinema.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mon 18
+https://server.playontv.in/sklivenews/tracks-v1/mono.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mon 19
+https://server.playontv.in/dcnhindi/dcnhindi/tracks-v1/mono.m3u8
+#EXTINF:-1 group-title="Live TV" ,Rctvsangbad
+http://94.136.188.21:8000/live/rctvsangbad/index.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Raibangla
+http://94.136.188.21:8000/live/raibangla/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Rctvsankirtan
+http://94.136.188.21:8000/live/rctvsankirtan/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mon 20
+https://server.playontv.in/sklivenews/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Live TV" ,Index 2
+https://d2dsoyvkr33m05.cloudfront.net/index_5.m3u8
+#EXTINF:-1 group-title="Live TV" ,Master 128
+https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ananda-livetv/master_1280.m3u8
+#EXTINF:-1 group-title="Sports" ,93D674Ab F7A0 404E 88B2 B4F163373Dbe
+https://vg-republictvyupp.akamaized.net/ptnr-yuppt/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-613605/93d674ab-f7a0-404e-88b2-b4f163373dbe/0.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,News18 Bangla NW18 MOB audio 108035 ben=108000 video=229760
+https://n18syndication.akamaized.net/bpk-tv/News18_Bangla_NW18_MOB/output01/News18_Bangla_NW18_MOB-audio_108035_ben=108000-video=2297600.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mon 21
+https://server.playontv.in/tvnews10/tracks-v1/mono.m3u8
+#EXTINF:-1 group-title="Live TV" ,Index.Fmp 3
+https://prideeast.thelegitpro.in/newslive/newslive/index.fmp4.m3u8
+#EXTINF:-1 group-title="Live TV" ,D380Bf5C167B4319A46Cdd8204Bc26B2
+https://d2lk5u59tns74c.cloudfront.net/out/v1/d380bf5c167b4319a46cdd8204bc26b2/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Index 3
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/52b998e9510d41c29ad2ceca8ea3d849/index_3.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mono.T 3
+https://server.zillarbarta.com/zillarbarta/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mon 22
+http://a-edge.bliscdn.com/Visionbeats/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Live TV" ,Zillarbarta
+https://server.zillarbarta.com/zillarbarta/index.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Sanandatv
+http://live-stream.amarbanglatv.in:8080/hls/sanandatv/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Output01
+https://n18syndication.akamaized.net/bpk-tv/News18_Assam_North_East_NW18_MOB/output01/master.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Output01 2
+https://n18syndication.akamaized.net/bpk-tv/News18_Bangla_NW18_MOB/output01/master.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Mon 23
+https://legitpro.co.in/taratv/taratv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ekhonkolkata
+https://server.playontv.in/ekhonkolkata/ekhonkolkata/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Friendstv
+https://server.playontv.in/friendstv/index.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Mon 24
+https://server.playontv.in/SHREEBANGLA/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mmix
+https://server.playontv.in/mmix/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ctvnakdplus
+https://legitpro.co.in/ctvnakdplus/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Cnnnews
+https://legitpro.co.in/cnnnews/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Bhichannel
+https://server.livelegitpro.in/bhichannel/bhichannel/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Index.Fmp 4
+https://server.thelegitpro.in/pratidintime/pratidintime/index.fmp4.m3u8
+#EXTINF:-1 group-title="Live TV" ,Newstime
+https://legitpro.co.in/hls2/newstime/index.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Chunk 3
+https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_240p/chunks.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Amarbangla
+http://115.187.41.216:8080/hls/amarbangla/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Amardigital
+http://115.187.41.216:8080/hls/amardigital/index.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Montvbangla
+http://115.187.41.216:8080/hls/montvbangla/index.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Sanandatv 2
+http://115.187.41.216:8080/hls/sanandatv/index.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Salambangla
+http://115.187.41.216:8080/hls/salambangla/index.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Bhaktibangla
+http://115.187.41.216:8080/hls/bhaktibangla/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mon 25
+http://185.193.19.32:8082/baktitv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Grambangl
+http://live.dataplayer.in:8080/live/grambangla.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mon 26
+https://server.playontv.in/hometv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mon 27
+https://server.playontv.in/raatdintripura/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mon 28
+https://ott.livelegitpro.in:9899/nebharat24/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Live TV" ,10018
+https://cdn-7.pishow.tv/live/10018/master.m3u8
+#EXTINF:-1 group-title="Live TV" ,10019
+https://cdn-7.pishow.tv/live/10019/master.m3u8
+#EXTINF:-1 group-title="Live TV" ,10017
+https://cdn-7.pishow.tv/live/10017/master.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Ruposhibangla.Stream
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Flixsrktv.Stream
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/flixsrktv.stream/playlist.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Anandatv.Stream
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Atnbanglauk Off.Stream
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbanglauk-off.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Channels.Stream 2
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Jagonews24.Stream 2
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/jagonews24.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mytv Up Off.Stream
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/playlist.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Biswabanglatv.Stream
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/biswabanglatv.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Chsukoff.Stream 2
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/chsukoff.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mnews24.Stream 2
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFZbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mnews24.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Millenniumtv Odr Up2.Stream
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/millenniumtv-odr-up2.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ntvuk00332211.Stream
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/ntvuk00332211.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Nrb Eu.Stream 2
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/nrb-eu.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Timetv
+https://cdn.streamcast.xyz/timetv/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Probashi Tv
+http://158.69.24.53:8080/probashi_tv/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Sbin.Stream
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/sbin.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Amardigital.Stream
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/amardigital.stream/playlist.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Amarbanglatv.Stream
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/amarbanglatv.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Samaykolkata.Stream
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/samaykolkata.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Montv.Stream
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/montv.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Chunklis
+https://previewsecgire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/pr_delay_ire_sd/dhoom/master/chunklist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Sristitv
+https://legitpro.co.in/live7/sristitv/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Index.Fmp 5
+https://livelegitpro.in/newstime/newstime/index.fmp4.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Taratv
+https://legitpro.co.in/taratv/taratv/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,218
+http://103.180.212.191:3500/live/2184.m3u8
+#EXTINF:-1 group-title="Live TV" ,166
+http://103.180.212.191:3500/live/1669.m3u8
+#EXTINF:-1 group-title="Live TV" ,136
+http://103.180.212.191:3500/live/1369.m3u8
+#EXTINF:-1 group-title="Live TV" ,75
+http://103.180.212.191:3500/live/756.m3u8
+#EXTINF:-1 group-title="Live TV" ,62 2
+http://103.180.212.191:3500/live/625.m3u8
+#EXTINF:-1 group-title="Live TV" ,126
+http://103.180.212.191:3500/live/1264.m3u8
+#EXTINF:-1 group-title="Live TV" ,67
+http://103.180.212.191:3500/live/672.m3u8
+#EXTINF:-1 group-title="Live TV" ,69
+http://103.180.212.191:3500/live/698.m3u8
+#EXTINF:-1 group-title="Live TV" ,173
+http://103.180.212.191:3500/live/1735.m3u8
+#EXTINF:-1 group-title="Live TV" ,281
+http://103.180.212.191:3500/live/2817.m3u8
+#EXTINF:-1 group-title="Live TV" ,300
+http://103.180.212.191:3500/live/3006.m3u8
+#EXTINF:-1 group-title="Live TV" ,166 2
+http://103.180.212.191:3500/live/1667.m3u8
+#EXTINF:-1 group-title="Live TV" ,161
+http://103.180.212.191:3500/live/1612.m3u8
+#EXTINF:-1 group-title="Live TV" ,176
+http://103.180.212.191:3500/live/1762.m3u8
+#EXTINF:-1 group-title="Live TV" ,235
+http://103.180.212.191:3500/live/2354.m3u8
+#EXTINF:-1 group-title="Live TV" ,300 2
+http://103.180.212.191:3500/live/3008.m3u8
+#EXTINF:-1 group-title="Live TV" ,291
+http://103.180.212.191:3500/live/2914.m3u8
+#EXTINF:-1 group-title="Live TV" ,149
+http://103.180.212.191:3500/live/1494.m3u8
+#EXTINF:-1 group-title="Live TV" ,189
+http://103.180.212.191:3500/live/1891.m3u8
+#EXTINF:-1 group-title="Live TV" ,222
+http://103.180.212.191:3500/live/2228.m3u8
+#EXTINF:-1 group-title="Live TV" ,68
+http://103.180.212.191:3500/live/687.m3u8
+#EXTINF:-1 group-title="Live TV" ,71
+http://103.180.212.191:3500/live/717.m3u8
+#EXTINF:-1 group-title="Live TV" ,177
+http://103.180.212.191:3500/live/1771.m3u8
+#EXTINF:-1 group-title="Live TV" ,179
+http://103.180.212.191:3500/live/1796.m3u8
+#EXTINF:-1 group-title="Live TV" ,196
+http://103.180.212.191:3500/live/1962.m3u8
+#EXTINF:-1 group-title="Live TV" ,202 2
+http://103.180.212.191:3500/live/2027.m3u8
+#EXTINF:-1 group-title="Live TV" ,202 3
+http://103.180.212.191:3500/live/2022.m3u8
+#EXTINF:-1 group-title="Live TV" ,170
+http://103.180.212.191:3500/live/1708.m3u8
+#EXTINF:-1 group-title="Live TV" ,172
+http://103.180.212.191:3500/live/1725.m3u8
+#EXTINF:-1 group-title="Live TV" ,218 2
+http://103.180.212.191:3500/live/2188.m3u8
+#EXTINF:-1 group-title="Live TV" ,175
+http://103.180.212.191:3500/live/1757.m3u8
+#EXTINF:-1 group-title="Live TV" ,61
+http://103.180.212.191:3500/live/613.m3u8
+#EXTINF:-1 group-title="Live TV" ,278
+http://103.180.212.191:3500/live/2780.m3u8
+#EXTINF:-1 group-title="Live TV" ,293
+http://103.180.212.191:3500/live/2933.m3u8
+#EXTINF:-1 group-title="Live TV" ,301
+http://103.180.212.191:3500/live/3019.m3u8
+#EXTINF:-1 group-title="Live TV" ,126 2
+http://103.180.212.191:3500/live/1260.m3u8
+#EXTINF:-1 group-title="Live TV" ,126 3
+http://103.180.212.191:3500/live/1261.m3u8
+#EXTINF:-1 group-title="Live TV" ,62 3
+http://103.180.212.191:3500/live/623.m3u8
+#EXTINF:-1 group-title="Live TV" ,63
+http://103.180.212.191:3500/live/639.m3u8
+#EXTINF:-1 group-title="Live TV" ,62 4
+http://103.180.212.191:3500/live/627.m3u8
+#EXTINF:-1 group-title="Live TV" ,62 5
+http://103.180.212.191:3500/live/624.m3u8
+#EXTINF:-1 group-title="Live TV" ,63 2
+http://103.180.212.191:3500/live/633.m3u8
+#EXTINF:-1 group-title="Live TV" ,63 3
+http://103.180.212.191:3500/live/637.m3u8
+#EXTINF:-1 group-title="Live TV" ,67 2
+http://103.180.212.191:3500/live/675.m3u8
+#EXTINF:-1 group-title="Live TV" ,143 2
+http://103.180.212.191:3500/live/1432.m3u8
+#EXTINF:-1 group-title="Live TV" ,173 2
+http://103.180.212.191:3500/live/1733.m3u8
+#EXTINF:-1 group-title="Live TV" ,185
+http://103.180.212.191:3500/live/1856.m3u8
+#EXTINF:-1 group-title="Live TV" ,76
+http://103.180.212.191:3500/live/765.m3u8
+#EXTINF:-1 group-title="Live TV" ,243
+http://103.180.212.191:3500/live/2435.m3u8
+#EXTINF:-1 group-title="Live TV" ,296
+http://103.180.212.191:3500/live/2961.m3u8
+#EXTINF:-1 group-title="Live TV" ,174
+http://103.180.212.191:3500/live/1740.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mon 29
+https://legitpro.co.in/live7/sristitv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ts Live 134
+https://mini.allinonereborn.fun/jiotv-www/app/ts_live_1341.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ts Live 134 2
+https://mini.allinonereborn.fun/jiotv-www/app/ts_live_1345.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ts Live 55
+https://mini.allinonereborn.fun/jiotv-www/app/ts_live_559.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ts Live 55 2
+https://mini.allinonereborn.fun/jiotv-www/app/ts_live_554.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ts Live 55 3
+https://mini.allinonereborn.fun/jiotv-www/app/ts_live_555.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ts Live 55 4
+https://mini.allinonereborn.fun/jiotv-www/app/ts_live_556.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ts Live 55 5
+https://mini.allinonereborn.fun/jiotv-www/app/ts_live_558.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ts Live 81
+https://mini.allinonereborn.fun/jiotv-www/app/ts_live_816.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ts Live 107
+https://mini.allinonereborn.fun/jiotv-www/app/ts_live_1079.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ts Live 121
+https://mini.allinonereborn.fun/jiotv-www/app/ts_live_1216.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ts Live 122
+https://mini.allinonereborn.fun/jiotv-www/app/ts_live_1226.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ts Live 81 2
+https://mini.allinonereborn.fun/jiotv-www/app/ts_live_815.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ts Live 54
+https://mini.allinonereborn.fun/jiotv-www/app/ts_live_545.m3u8
+#EXTINF:-1 group-title="Live TV" ,Ts Live 178
+https://mini.allinonereborn.fun/jiotv-www/app/ts_live_1780.m3u8
+#EXTINF:-1 group-title="Live TV" ,ExtremaKids
+https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mono.T 4
+https://ml-pull-dvc-myco.io:2096/BABY_TV/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Live TV" ,MiniMa
+https://s2.ideationtec.live/MiniMax/MiniMax.m3u8
+#EXTINF:-1 group-title="Live TV" ,Karusel HD
+http://31.148.48.15/Karusel_HD/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Videotn8
+https://60417ddeaf0d9.streamlock.net/tn8/videotn8/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Disckids 157 1
+https://vodzong.mjunoon.tv:8087/streamtest/disckids-157-1/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Output 16
+https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,1722 Audio 113522 Eng=113200 Video=169200
+https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/1722-audio_113522_eng=113200-video=1692000.m3u8
+#EXTINF:-1 group-title="Live TV" ,Livestream 2
+https://ekusheyserver.com/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
+#EXTINF:-1 group-title="Live TV" ,1716 Audio 113462 Eng=113200 Video=169200
+https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/1716-audio_113462_eng=113200-video=1692000.m3u8
+#EXTINF:-1 group-title="Live TV" ,1701 Audio 113312 Eng=113200 Video=169200
+https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/1701-audio_113312_eng=113200-video=1692000.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Amg01448 Samsungin Enterr10Bangla Samsungin
+https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Output 17
+https://owrcovcrpy.gpcdn.net/bpk-tv/1717/output/index.m3u8
+#EXTINF:-1 group-title="Sports" ,Atnbanglauk Off.Stream 2
+https://app.ncare.live/live-orgin/atnbanglauk-off.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Index 4
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/7ff57cc9046b4c188b51a0d506f36e7f/index_3.m3u8
+#EXTINF:-1 group-title="Live TV" ,8XM 131
+https://vodzong.mjunoon.tv:8087/streamtest/8XM-131/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Jungleboo
+https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8
+#EXTINF:-1 group-title="Live TV" ,Wildearth-Plex
+https://wildearth-plex.amagi.tv/master.m3u8
+#EXTINF:-1 group-title="Live TV" ,Amg00684 Accuweather Accuweather Plex
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,UCelk6aHijZq GJBBB9YpRe
+https://ythls.armelin.one/channel/UCelk6aHijZq-GJBBB9YpReA.m3u8
+#EXTINF:-1 group-title="Live TV" ,Amg02703 Leadstory Leadstory Samsungau
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg02703-leadstory-leadstory-samsungau/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Index 5
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+#EXTINF:-1 group-title="Live TV" ,172 2
+https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/1722.m3u8
+#EXTINF:-1 group-title="Live TV" ,171
+https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/1716.m3u8
+#EXTINF:-1 group-title="Live TV" ,172 3
+https://owrcovcrpy.gpcdn.net/bpk-tv/1720/output/1720.m3u8
+#EXTINF:-1 group-title="Live TV" ,171 2
+https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/1711.m3u8
+#EXTINF:-1 group-title="Live TV" ,172 4
+https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/1729.m3u8
+#EXTINF:-1 group-title="Live TV" ,170 2
+https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/1702.m3u8
+#EXTINF:-1 group-title="Live TV" ,170 3
+https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/1704.m3u8
+#EXTINF:-1 group-title="Live TV" ,170 4
+https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705.m3u8
+#EXTINF:-1 group-title="Live TV" ,170 5
+https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/1706.m3u8
+#EXTINF:-1 group-title="Live TV" ,170 6
+https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/1701.m3u8
+#EXTINF:-1 group-title="Live TV" ,170 7
+https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/1703.m3u8
+#EXTINF:-1 group-title="Live TV" ,172 5
+https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/1728.m3u8
+#EXTINF:-1 group-title="Live TV" ,172 6
+https://owrcovcrpy.gpcdn.net/bpk-tv/1724/output/1724.m3u8
+#EXTINF:-1 group-title="Live TV" ,USA 48
+https://hlsb-us.god.tv/GODTV/USA-480.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mono.T 5
+https://vods2.aynaott.com/gseriesDrama/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Amarbanglatv.Stream 2
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,378
+http://103.175.73.12:8080/live/378/378_0.m3u8
+#EXTINF:-1 group-title="Live TV" ,256
+http://103.175.73.12:8080/live/256/256_0.m3u8
+#EXTINF:-1 group-title="Live TV" ,13
+http://103.175.73.12:8080/live/13/13_0.m3u8
+#EXTINF:-1 group-title="Live TV" ,BollyFlix I
+https://cc-r5hupcym5oehh.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-r5hupcym5oehh/SBUM/RunnTV/BollyFlix_IN/BollyFlix_IN.m3u8
+#EXTINF:-1 group-title="Live TV" ,270
+http://103.175.73.12:8080/live/270/270_0.m3u8
+#EXTINF:-1 group-title="Live TV" ,271
+http://103.175.73.12:8080/live/271/271_0.m3u8
+#EXTINF:-1 group-title="Live TV" ,52
+http://103.175.73.12:8080/live/52/52_0.m3u8
+#EXTINF:-1 group-title="Live TV" ,23
+http://103.175.73.12:8080/live/23/23_0.m3u8
+#EXTINF:-1 group-title="Live TV" ,345
+http://103.175.73.12:8080/live/345/345_0.m3u8
+#EXTINF:-1 group-title="Live TV" ,19
+http://103.175.73.12:8080/live/19/19_0.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,D3227Daf Ea13 48C9 95A4 1619862D136E
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/d3227daf-ea13-48c9-95a4-1619862d136e/0.m3u8
+#EXTINF:-1 group-title="Live TV" ,Doccgtn
+https://english-livebkali.cgtn.com/live/doccgtn_1.m3u8
+#EXTINF:-1 group-title="Live TV" ,Discoverpakistan.Stream
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/discoverpakistan.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Amg01553 Blueantmediaasi Zoomoonz Samsungnz
+https://amg01553-blueantmediaasi-zoomoonz-samsungnz-rdufn.amagi.tv/playlist/amg01553-blueantmediaasi-zoomoonz-samsungnz/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,155
+http://103.175.73.12:8080/live/155/155_0.m3u8
+#EXTINF:-1 group-title="Live TV" ,159
+http://103.175.73.12:8080/live/159/159_0.m3u8
+#EXTINF:-1 group-title="Live TV" ,158
+http://103.175.73.12:8080/live/158/158_0.m3u8
+#EXTINF:-1 group-title="Live TV" ,Output 18
+https://owrcovcrpy.gpcdn.net/bpk-tv/1721/output/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,AB
+https://d39chvnxm26pgp.cloudfront.net/v1/master/72588bff830dec7b26d7cbbf5f3c24928aec5c03/cc-sthen6ms4vxgv-stage/WNSFO/ABR.m3u8
+#EXTINF:-1 group-title="Live TV" ,417
+http://103.175.73.12:8080/live/417/417_0.m3u8
+#EXTINF:-1 group-title="Live TV" ,Output 19
+https://owrcovcrpy.gpcdn.net/bpk-tv/1720/output/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Output 20
+https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Originals
+https://nomawnoijl.gpcdn.net/akash/originals/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Cineedge
+https://nomawnoijl.gpcdn.net/akash/cineedge/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Uniques
+https://nomawnoijl.gpcdn.net/akash/uniques/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Output 21
+https://owrcovcrpy.gpcdn.net/bpk-tv/1724/output/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Superrix
+https://nomawnoijl.gpcdn.net/akash/superrix/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Crazy Ex
+https://nomawnoijl.gpcdn.net/akash/crazy_ex/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Screem
+https://nomawnoijl.gpcdn.net/akash/screem/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Sportslegends
+https://nomawnoijl.gpcdn.net/akash/sportslegends/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Flashguys
+https://nomawnoijl.gpcdn.net/akash/flashguys/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Partyuniverse
+https://nomawnoijl.gpcdn.net/akash/partyuniverse/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Delicious
+https://nomawnoijl.gpcdn.net/akash/delicious/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Luxell
+https://nomawnoijl.gpcdn.net/akash/luxell/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Nikky
+https://nomawnoijl.gpcdn.net/akash/nikky/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Joy
+https://nomawnoijl.gpcdn.net/akash/joy/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Buddystar
+https://nomawnoijl.gpcdn.net/akash/buddystar/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Funnyjunior
+https://nomawnoijl.gpcdn.net/akash/funnyjunior/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Crimes
+https://nomawnoijl.gpcdn.net/akash/crimes/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Truestories
+https://nomawnoijl.gpcdn.net/akash/truestories/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Intelligence
+https://nomawnoijl.gpcdn.net/akash/intelligence/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Sportrange
+https://nomawnoijl.gpcdn.net/akash/sportrange/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Thunder
+https://nomawnoijl.gpcdn.net/akash/thunder/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Fighter
+https://nomawnoijl.gpcdn.net/akash/fighter/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Smarty
+https://nomawnoijl.gpcdn.net/akash/smarty/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Luckyfamily
+https://nomawnoijl.gpcdn.net/akash/luckyfamily/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Kidsstars
+https://nomawnoijl.gpcdn.net/akash/kidsstars/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mon 30
+http://198.195.239.50:8095/JalshaMovies/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Bangladesh" ,Kolkatatv
+https://cdn.ottlive.co.in/kolkatatv/index.m3u8
+#EXTINF:-1 group-title="Sports" ,Mon 31
+http://198.195.239.50:8095/SonyTv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Live TV" ,A067
+http://202.70.146.135:8000/play/a067/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A06N
+http://202.70.146.135:8000/play/a06n/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A05Y
+http://202.70.146.135:8000/play/a05y/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A06S
+http://202.70.146.135:8000/play/a06s/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A06B
+http://202.70.146.135:8000/play/a06b/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A06C
+http://202.70.146.135:8000/play/a06c/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A058
+http://202.70.146.135:8000/play/a058/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A01X
+http://202.70.146.135:8000/play/a01x/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A00B
+http://202.70.146.135:8000/play/a00b/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A06O
+http://202.70.146.135:8000/play/a06o/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A054
+http://202.70.146.135:8000/play/a054/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A02L
+http://202.70.146.135:8000/play/a02l/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A060
+http://202.70.146.135:8000/play/a060/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A050
+http://202.70.146.135:8000/play/a050/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A01Q
+http://202.70.146.135:8000/play/a01q/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A04P
+http://202.70.146.135:8000/play/a04p/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A02B
+http://202.70.146.135:8000/play/a02b/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A05S
+http://202.70.146.135:8000/play/a05s/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A065
+http://202.70.146.135:8000/play/a065/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A05V
+http://202.70.146.135:8000/play/a05v/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A052
+http://202.70.146.135:8000/play/a052/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A06M
+http://202.70.146.135:8000/play/a06m/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A057
+http://202.70.146.135:8000/play/a057/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A05J
+http://202.70.146.135:8000/play/a05j/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A02N
+http://202.70.146.135:8000/play/a02n/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A05X
+http://202.70.146.135:8000/play/a05x/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A005
+http://202.70.146.135:8000/play/a005/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A01G
+http://202.70.146.135:8000/play/a01g/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A06P
+http://202.70.146.135:8000/play/a06p/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A025
+http://202.70.146.135:8000/play/a025/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A09P
+http://202.70.146.135:8000/play/a09p/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A09Q
+http://202.70.146.135:8000/play/a09q/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A09R
+http://202.70.146.135:8000/play/a09r/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A02A
+http://202.70.146.135:8000/play/a02a/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A02Z
+http://202.70.146.135:8000/play/a02z/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A06R
+http://202.70.146.135:8000/play/a06r/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A06Q
+http://202.70.146.135:8000/play/a06q/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A009
+http://202.70.146.135:8000/play/a009/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A02T
+http://202.70.146.135:8000/play/a02t/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A04B
+http://202.70.146.135:8000/play/a04b/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A026
+http://202.70.146.135:8000/play/a026/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A02D
+http://202.70.146.135:8000/play/a02d/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A04Q
+http://202.70.146.135:8000/play/a04q/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A044
+http://202.70.146.135:8000/play/a044/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A068
+http://202.70.146.135:8000/play/a068/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A024
+http://202.70.146.135:8000/play/a024/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A049
+http://202.70.146.135:8000/play/a049/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A00A
+http://202.70.146.135:8000/play/a00a/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A03E
+http://202.70.146.135:8000/play/a03e/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A06K
+http://202.70.146.135:8000/play/a06k/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A05I
+http://202.70.146.135:8000/play/a05i/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A04O
+http://202.70.146.135:8000/play/a04o/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A008
+http://202.70.146.135:8000/play/a008/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A037
+http://202.70.146.135:8000/play/a037/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A03F
+http://202.70.146.135:8000/play/a03f/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A04D
+http://202.70.146.135:8000/play/a04d/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,A04G 2
+http://202.70.146.135:8000/play/a04g/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,1709 Audio 113392 Eng=113200 Video=169200
+https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/1709-audio_113392_eng=113200-video=1692000.m3u8
+#EXTINF:-1 group-title="Live TV" ,1723 Audio 113532 Eng=113200 Video=169200
+https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/1723-audio_113532_eng=113200-video=1692000.m3u8
+#EXTINF:-1 group-title="Live TV" ,Output 22
+https://owrcovcrpy.gpcdn.net/bpk-tv/1718/output/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Discovery 2
+https://mumbai-edge.smartplaytv.in/Discovery/index.m3u8
+#EXTINF:-1 group-title="Sports" ,108
+https://iptvbd.live/metv1080/1080.m3u8
+#EXTINF:-1 group-title="Live TV" ,Chunk 4
+https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_404p/chunks.m3u8
+#EXTINF:-1 group-title="Live TV" ,40492A64C1Db4A1385Ba1A397D357D3A
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/40492a64c1db4a1385ba1a397d357d3a/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,Cdn
+https://cdn.../index.m3u8?token=
+#EXTINF:-1 group-title="Live TV" ,Strea 2
+https://playyonogames.in/sliv/stream.m3u8?id=1000009276
+#EXTINF:-1 group-title="Live TV" ,Strea 3
+https://playyonogames.in/sliv/stream.m3u8?id=1000009277
+#EXTINF:-1 group-title="Live TV" ,Strea 4
+https://playyonogames.in/sliv/stream.m3u8?id=1000009278
+#EXTINF:-1 group-title="Live TV" ,Strea 5
+https://playyonogames.in/sliv/stream.m3u8?id=1000009275
+#EXTINF:-1 group-title="Sports" ,Stream.Php
+https://roarzone.geoclaster.xyz/main/stream.php?id=ZWRnZTIvYS1zcG9ydHM%3D&name=ASPORTS&format=.m3u8
+#EXTINF:-1 group-title="Sports" ,Stream.Php 2
+https://roarzone.geoclaster.xyz/main/stream.php?id=ZWRnZTIvcHR2LXNwb3J0cw%3D%3D&name=PTV+spotrs&format=.m3u8
+#EXTINF:-1 group-title="Live TV" ,BTV
+https://live-stream.akhoni.com/BTV/index.m3u8
+#EXTINF:-1 group-title="Live TV" ,1143
+https://cdn-4.pishow.tv/live/1143/master.m3u8
+#EXTINF:-1 group-title="Live TV" ,209617
+https://cloudfrontnet.vercel.app/tplay/playout/209617/master.m3u8
+#EXTINF:-1 group-title="Live TV" ,Strea 6
+https://playyonogames.in/sliv/stream.m3u8?id=1000009246
+#EXTINF:-1 group-title="Live TV" ,Strea 7
+https://playyonogames.in/sliv/stream.m3u8?id=1000009248
+#EXTINF:-1 group-title="Live TV" ,Strea 8
+https://playyonogames.in/sliv/stream.m3u8?id=1000009273
+#EXTINF:-1 group-title="Live TV" ,Strea 9
+https://playyonogames.in/sliv/stream.m3u8?id=1000009253
+#EXTINF:-1 group-title="Live TV" ,Strea 10
+https://playyonogames.in/sliv/stream.m3u8?id=1000009252
+#EXTINF:-1 group-title="Sports" ,Stream2
+https://iptv.prisma.net.bd/hls/stream2/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Stream3
+https://iptv.prisma.net.bd/hls/stream3/playlist.m3u8
+#EXTINF:-1 group-title="Sports" ,Stream4
+https://iptv.prisma.net.bd/hls/stream4/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,209627
+https://cloudfrontnet.vercel.app/tplay/playout/209627/master.m3u8
+#EXTINF:-1 group-title="Live TV" ,Strea 11
+https://playyonogames.in/sliv/stream.m3u8?id=1000009247
+#EXTINF:-1 group-title="Live TV" ,Strea 12
+https://playyonogames.in/sliv/stream.m3u8?id=1000044878
+#EXTINF:-1 group-title="Live TV" ,Strea 13
+https://playyonogames.in/sliv/stream.m3u8?id=1000009258
+#EXTINF:-1 group-title="Live TV" ,Strea 14
+https://playyonogames.in/sliv/stream.m3u8?id=1000009255
+#EXTINF:-1 group-title="Live TV" ,Strea 15
+https://playyonogames.in/sliv/stream.m3u8?id=1000001971
+#EXTINF:-1 group-title="Live TV" ,Liv
+https://cdn.example/live.m3u8?sig=1
+#EXTINF:-1 group-title="Live TV" ,A
+https://x.test/hub/a/1.m3u8
+#EXTINF:-1 group-title="Live TV" ,B
+https://x.test/hub/b/1.m3u8
+#EXTINF:-1 group-title="Live TV" ,Mnews24.Stream 3
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mnews24.stream/playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,...
+https://bldcmprod-cdn.toffeelive.com/.../playlist.m3u8
+#EXTINF:-1 group-title="Live TV" ,
+http://...m3u8
+#EXTINF:-1 group-title="Live TV" ,Your-Stream-Url
+https://your-stream-url/playlist.m3u8
