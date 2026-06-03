@@ -1,3 +1,5 @@
+import appwrite_env  # noqa: F401 — loads .env when present
+
 import os
 import re
 import sys
