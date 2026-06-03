@@ -21,17 +21,36 @@ client.set_project(APPWRITE_PROJECT_ID)
 client.set_key(APPWRITE_API_KEY)
 databases = Databases(client)
 
+
+def get_docs(result):
+    """Handle both dict and object response from appwrite SDK."""
+    if isinstance(result, dict):
+        return result.get("documents", [])
+    if hasattr(result, "documents"):
+        return result.documents
+    return []
+
+
+def get_doc_id(doc):
+    """Handle both dict and object document."""
+    if isinstance(doc, dict):
+        return doc.get("$id") or doc.get("id")
+    return getattr(doc, "id", None) or getattr(doc, "$id", None)
+
+
 print("Deleting old data...")
 while True:
     result = databases.list_documents(
         database_id=DATABASE_ID,
         collection_id=COLLECTION_ID,
     )
-    docs = result.documents
+    docs = get_docs(result)
     if not docs:
         break
     for doc in docs:
-        databases.delete_document(DATABASE_ID, COLLECTION_ID, doc.id)
+        doc_id = get_doc_id(doc)
+        if doc_id:
+            databases.delete_document(DATABASE_ID, COLLECTION_ID, doc_id)
     print(f"Deleted {len(docs)} docs...")
 print("Old data cleared!")
 
@@ -43,6 +62,7 @@ response = requests.get(M3U_URL, headers=headers, timeout=30)
 response.raise_for_status()
 m3u_content = response.text
 print(f"Got {len(m3u_content)} bytes")
+
 
 def parse_m3u(content):
     channels = []
@@ -71,6 +91,7 @@ def parse_m3u(content):
             channels.append(current)
             current = None
     return channels
+
 
 channels = parse_m3u(m3u_content)
 print(f"Parsed {len(channels)} channels")
