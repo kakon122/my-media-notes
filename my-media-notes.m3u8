@@ -1,4 +1,5 @@
 #EXTM3U
+# ci-sync: trigger migration
 #EXTINF:-1 tvg-name="CNBC TV18 Prime" group-title="Live TV",CNBC TV18 Prime
 https://n18syndication.akamaized.net/bpk-tv/CNBC_Tv18_Prime_HD_NW18_MOB/output01/index.m3u8
 #EXTINF:-1 tvg-name="Colors" group-title="Live TV",Colors HD
