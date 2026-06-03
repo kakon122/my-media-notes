@@ -1,30 +1,43 @@
-from appwrite.client import Client
-from appwrite.services.databases import Databases
-from appwrite.id import ID
-import requests
+import os
 import re
+import sys
 import time
 
+import requests
+from appwrite.client import Client
+from appwrite.id import ID
+from appwrite.services.databases import Databases
+
 APPWRITE_ENDPOINT = "https://nyc.cloud.appwrite.io/v1"
-APPWRITE_PROJECT_ID = "191876000995145"
-APPWRITE_API_KEY = "standard_c994c2bc1cee7708fe5a52ec1c6b24bf7a03a2ace26c4c3171034aa7c13c31c28e48c4bc96cc00024bc46c146294ed87d275ea267a41ffa5f6ba17d2a900e5affe533515ab6072c11580bcba693dccaa49615de2e3d4d1f3ce0e547a187ee4066c2462760027c6fb7a6ffb73501d4a4e8acdb777ede588f9f465cb2cd915e216"
 DATABASE_ID = "iptv_main"
 COLLECTION_ID = "channels"
+M3U_FILE = os.environ.get("M3U_FILE", "my-media-notes.m3u8")
+M3U_URL = os.environ.get(
+    "M3U_URL",
+    "https://raw.githubusercontent.com/kakon122/my-media-notes/main/my-media-notes.m3u8",
+)
 
-GITHUB_TOKEN = "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"
-M3U_URL = "https://raw.githubusercontent.com/kakon122/my-media-notes/main/my-media-notes.m3u8"
 
-client = Client()
-client.set_endpoint(APPWRITE_ENDPOINT)
-client.set_project(APPWRITE_PROJECT_ID)
-client.set_key(APPWRITE_API_KEY)
-databases = Databases(client)
+def require_env(name: str) -> str:
+    value = os.environ.get(name, "").strip()
+    if not value:
+        print(f"ERROR: set {name} in the environment", file=sys.stderr)
+        sys.exit(1)
+    return value
 
-print("Fetching M3U file...")
-response = requests.get(M3U_URL, headers={"Authorization": f"token {GITHUB_TOKEN}"}, timeout=30)
-response.raise_for_status()
-m3u_content = response.text
-print(f"Got {len(m3u_content)} bytes")
+
+def load_m3u() -> str:
+    if os.path.isfile(M3U_FILE):
+        with open(M3U_FILE, encoding="utf-8", errors="replace") as handle:
+            return handle.read()
+    headers = {}
+    token = os.environ.get("GITHUB_TOKEN", "").strip()
+    if token:
+        headers["Authorization"] = f"token {token}"
+    response = requests.get(M3U_URL, headers=headers, timeout=60)
+    response.raise_for_status()
+    return response.text
+
 
 def parse_m3u(content):
     channels = []
@@ -35,7 +48,7 @@ def parse_m3u(content):
         if not line:
             continue
         if line.startswith("#EXTINF"):
-            name_match = re.search(r',(.+)$', line)
+            name_match = re.search(r",(.+)$", line)
             logo_match = re.search(r'tvg-logo="([^"]*)"', line)
             group_match = re.search(r'group-title="([^"]*)"', line)
             country_match = re.search(r'tvg-country="([^"]*)"', line)
@@ -49,10 +62,26 @@ def parse_m3u(content):
         elif line.startswith(("http://", "https://", "rtmp://")) and current is not None:
             current["stream_url"] = line
             current["is_active"] = True
-            current["quality"] = "HD" if ("1080" in line or "fhd" in line.lower()) else "SD"
+            current["quality"] = (
+                "HD" if ("1080" in line or "fhd" in line.lower()) else "SD"
+            )
             channels.append(current)
             current = None
     return channels
+
+
+project_id = require_env("APPWRITE_PROJECT_ID")
+api_key = require_env("APPWRITE_API_KEY")
+
+client = Client()
+client.set_endpoint(APPWRITE_ENDPOINT)
+client.set_project(project_id)
+client.set_key(api_key)
+databases = Databases(client)
+
+print("Fetching M3U file...")
+m3u_content = load_m3u()
+print(f"Got {len(m3u_content)} bytes")
 
 channels = parse_m3u(m3u_content)
 print(f"Parsed {len(channels)} channels")
@@ -75,19 +104,21 @@ for i, ch in enumerate(channels):
                 "is_active": ch["is_active"],
                 "quality": ch["quality"][:10],
                 "group_title": ch["group_title"][:100],
-            }
+            },
         )
         success += 1
         time.sleep(0.3)
         if (i + 1) % 100 == 0:
-            print(f"Imported {i+1}/{len(channels)} ... ✅{success} ❌{failed}")
-    except Exception as e:
+            print(f"Imported {i + 1}/{len(channels)} ... ok={success} fail={failed}")
+    except Exception as exc:
         failed += 1
-        err = str(e)[:120]
+        err = str(exc)[:120]
         print(f"Failed [{ch.get('name')}]: {err}")
         if "429" in err or "rate" in err.lower():
-            print("⏳ Rate limit, sleeping 10s...")
+            print("Rate limit hit, sleeping 10s...")
             time.sleep(10)
 
-print(f"\n✅ Success: {success}")
-print(f"❌ Failed: {failed}")
+print(f"\nSuccess: {success}")
+print(f"Failed: {failed}")
+if failed:
+    sys.exit(1)

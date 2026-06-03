@@ -1,52 +1,51 @@
 import os
 import re
+import sys
 import time
+
 import requests
 from appwrite.client import Client
-from appwrite.services.databases import Databases
 from appwrite.id import ID
+from appwrite.services.databases import Databases
 
 APPWRITE_ENDPOINT = "https://nyc.cloud.appwrite.io/v1"
-APPWRITE_PROJECT_ID = os.environ["APPWRITE_PROJECT_ID"]
-APPWRITE_API_KEY = os.environ["APPWRITE_API_KEY"]
 DATABASE_ID = "iptv_main"
 COLLECTION_ID = "channels"
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
-M3U_URL = "https://raw.githubusercontent.com/kakon122/my-media-notes/main/my-media-notes.m3u8"
+M3U_FILE = os.environ.get("M3U_FILE", "my-media-notes.m3u8")
+M3U_URL = os.environ.get(
+    "M3U_URL",
+    "https://raw.githubusercontent.com/kakon122/my-media-notes/main/my-media-notes.m3u8",
+)
+IMPORT_DELAY_SEC = float(os.environ.get("IMPORT_DELAY_SEC", "0.2"))
 
-client = Client()
-client.set_endpoint(APPWRITE_ENDPOINT)
-client.set_project(APPWRITE_PROJECT_ID)
-client.set_key(APPWRITE_API_KEY)
-databases = Databases(client)
 
-def get_docs(result):
-    return getattr(result, "documents", [])
+def require_env(name: str) -> str:
+    value = os.environ.get(name, "").strip()
+    if not value:
+        print(f"ERROR: missing required environment variable {name}", file=sys.stderr)
+        sys.exit(1)
+    return value
 
-def get_id(doc):
-    return getattr(doc, "id", None)
 
-print("Deleting old data...")
-while True:
-    result = databases.list_documents(database_id=DATABASE_ID, collection_id=COLLECTION_ID)
-    docs = get_docs(result)
-    if not docs:
-        break
-    for doc in docs:
-        databases.delete_document(DATABASE_ID, COLLECTION_ID, get_id(doc))
-    print(f"Deleted {len(docs)} docs...")
-print("Old data cleared!")
+def load_m3u() -> str:
+    if os.path.isfile(M3U_FILE):
+        with open(M3U_FILE, encoding="utf-8", errors="replace") as handle:
+            content = handle.read()
+        print(f"Loaded playlist from {M3U_FILE} ({len(content)} bytes)")
+        return content
 
-print("Fetching M3U file...")
-headers = {}
-if GITHUB_TOKEN:
-    headers["Authorization"] = f"token {GITHUB_TOKEN}"
-response = requests.get(M3U_URL, headers=headers, timeout=30)
-response.raise_for_status()
-m3u_content = response.text
-print(f"Got {len(m3u_content)} bytes")
+    print(f"Local file {M3U_FILE} not found, fetching from GitHub...")
+    headers = {}
+    token = os.environ.get("GITHUB_TOKEN", "").strip()
+    if token:
+        headers["Authorization"] = f"token {token}"
+    response = requests.get(M3U_URL, headers=headers, timeout=60)
+    response.raise_for_status()
+    print(f"Fetched remote playlist ({len(response.text)} bytes)")
+    return response.text
 
-def parse_m3u(content):
+
+def parse_m3u(content: str) -> list[dict]:
     channels = []
     lines = content.split("\n")
     current = None
@@ -55,7 +54,7 @@ def parse_m3u(content):
         if not line:
             continue
         if line.startswith("#EXTINF"):
-            name_match = re.search(r',(.+)$', line)
+            name_match = re.search(r",(.+)$", line)
             logo_match = re.search(r'tvg-logo="([^"]*)"', line)
             group_match = re.search(r'group-title="([^"]*)"', line)
             country_match = re.search(r'tvg-country="([^"]*)"', line)
@@ -69,41 +68,89 @@ def parse_m3u(content):
         elif line.startswith(("http://", "https://", "rtmp://")) and current is not None:
             current["stream_url"] = line
             current["is_active"] = True
-            current["quality"] = "HD" if ("1080" in line or "fhd" in line.lower()) else "SD"
+            current["quality"] = (
+                "HD" if ("1080" in line or "fhd" in line.lower()) else "SD"
+            )
             channels.append(current)
             current = None
     return channels
 
-channels = parse_m3u(m3u_content)
-print(f"Parsed {len(channels)} channels")
 
-success = 0
-failed = 0
+def get_docs(result):
+    return getattr(result, "documents", [])
 
-for i, ch in enumerate(channels):
-    try:
-        databases.create_document(
-            database_id=DATABASE_ID,
-            collection_id=COLLECTION_ID,
-            document_id=ID.unique(),
-            data={
-                "name": ch["name"][:255],
-                "stream_url": ch["stream_url"][:2000],
-                "category": ch["category"][:50],
-                "country": ch["country"][:10],
-                "logo_url": ch["logo_url"][:500],
-                "is_active": ch["is_active"],
-                "quality": ch["quality"][:10],
-                "group_title": ch["group_title"][:100],
-            }
+
+def get_id(doc):
+    return getattr(doc, "id", None)
+
+
+def main() -> None:
+    project_id = require_env("APPWRITE_PROJECT_ID")
+    api_key = require_env("APPWRITE_API_KEY")
+
+    client = Client()
+    client.set_endpoint(APPWRITE_ENDPOINT)
+    client.set_project(project_id)
+    client.set_key(api_key)
+    databases = Databases(client)
+
+    print("Deleting old data...")
+    while True:
+        result = databases.list_documents(
+            database_id=DATABASE_ID, collection_id=COLLECTION_ID
         )
-        success += 1
-        time.sleep(0.2)
-        if (i + 1) % 100 == 0:
-            print(f"Imported {i+1}/{len(channels)} ... ✅{success} ❌{failed}")
-    except Exception as e:
-        failed += 1
-        print(f"Failed [{ch.get('name')}]: {str(e)[:80]}")
+        docs = get_docs(result)
+        if not docs:
+            break
+        for doc in docs:
+            databases.delete_document(DATABASE_ID, COLLECTION_ID, get_id(doc))
+        print(f"Deleted {len(docs)} docs...")
+    print("Old data cleared!")
 
-print(f"\n✅ Success: {success}")
-print(f"❌ Failed: {failed}")
+    channels = parse_m3u(load_m3u())
+    print(f"Parsed {len(channels)} channels")
+    if not channels:
+        print("ERROR: no channels found in playlist", file=sys.stderr)
+        sys.exit(1)
+
+    success = 0
+    failed = 0
+
+    for i, ch in enumerate(channels):
+        try:
+            databases.create_document(
+                database_id=DATABASE_ID,
+                collection_id=COLLECTION_ID,
+                document_id=ID.unique(),
+                data={
+                    "name": ch["name"][:255],
+                    "stream_url": ch["stream_url"][:2000],
+                    "category": ch["category"][:50],
+                    "country": ch["country"][:10],
+                    "logo_url": ch["logo_url"][:500],
+                    "is_active": ch["is_active"],
+                    "quality": ch["quality"][:10],
+                    "group_title": ch["group_title"][:100],
+                },
+            )
+            success += 1
+            time.sleep(IMPORT_DELAY_SEC)
+            if (i + 1) % 100 == 0:
+                print(f"Imported {i + 1}/{len(channels)} ... ok={success} fail={failed}")
+        except Exception as exc:
+            failed += 1
+            err = str(exc)[:120]
+            print(f"Failed [{ch.get('name')}]: {err}")
+            if "429" in err or "rate" in err.lower():
+                print("Rate limit hit, sleeping 10s...")
+                time.sleep(10)
+
+    print(f"\nSuccess: {success}")
+    print(f"Failed: {failed}")
+
+    if failed:
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()
