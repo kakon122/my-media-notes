@@ -21,22 +21,20 @@ client.set_project(APPWRITE_PROJECT_ID)
 client.set_key(APPWRITE_API_KEY)
 databases = Databases(client)
 
-# পুরনো সব data delete কর
 print("Deleting old data...")
 while True:
     result = databases.list_documents(
         database_id=DATABASE_ID,
         collection_id=COLLECTION_ID,
     )
-    docs = result["documents"]
+    docs = result.documents
     if not docs:
         break
     for doc in docs:
-        databases.delete_document(DATABASE_ID, COLLECTION_ID, doc["$id"])
+        databases.delete_document(DATABASE_ID, COLLECTION_ID, doc.id)
     print(f"Deleted {len(docs)} docs...")
 print("Old data cleared!")
 
-# M3U fetch
 print("Fetching M3U file...")
 headers = {}
 if GITHUB_TOKEN:
