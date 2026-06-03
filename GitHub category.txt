@@ -10,3 +10,293 @@ Sports / Bangladesh সরাসরি সেই category-তে যাবে।
 lib/config/channel_categories.dart — সব category, emoji, রঙ, নিয়ম
 Home/Categories dynamic — channel না থাকলে খালি category দেখাবে না
 App refresh করুন (pull-to-refresh) — নতুন category split দেখতে পাবেন। আরও category চাইলে GitHub-এ group-title বাড়ান অথবা বলুন কোন নামগুলো কোন category-তে চান।
+
+#EXTINF:-1 tvg-name="T Sports" group-title="Sports",T Sports HD
+https://your-stream.m3u8
+
+
+
+
+
+
+Here's the full Cursor prompt — paste this as-is. It covers all P0 + P1 items in execution order with acceptance criteria.
+
+---
+
+# Cursor Prompt: Lumio v1.0.0-rc1 Hardening (P0 + P1)
+
+You are working on the **`lumio`** Flutter repo. Execute the following tasks **in order**. Do not skip steps. After each numbered task, run the listed verification command and only proceed if it passes. Commit after each task with the given commit message. Do not open PRs; commit directly to a new branch `release/v1.0.0-rc1`.
+
+---
+
+## Ground rules
+
+- Flutter channel: stable, current pinned version in `pubspec.yaml`.
+- No new dependencies unless explicitly listed below.
+- Do not reformat unrelated files.
+- All secrets go through `--dart-define` or GitHub Actions secrets — never commit them.
+- If a step is ambiguous, prefer the **smallest diff** that satisfies the acceptance criteria.
+
+---
+
+## PHASE 0 — Branch setup
+
+```bash
+git checkout -b release/v1.0.0-rc1
+flutter pub get
+flutter analyze
+flutter test
+```
+
+Record the current failing tests in `docs/release/rc1_baseline.md` (just the test names + first error line each).
+
+---
+
+## PHASE 1 — P0 BLOCKERS
+
+### Task 1.1 — Fix the 4 failing Flutter tests
+
+1. Open `docs/release/rc1_baseline.md` and address each failing test one by one.
+2. For each failure:
+   - If the test is correct and code is wrong → fix the code.
+   - If the test is stale (asserts old behavior) → update the test and add a 1-line comment `// updated for rc1: <reason>`.
+   - If the test depends on network/file IO → mock it using `mocktail` (already in dev deps) — do **not** add new mocking libs.
+3. Re-run after each fix: `flutter test --reporter expanded`.
+
+**Acceptance:** `flutter test` exits 0. Zero skipped tests added.
+
+**Commit:** `test: stabilize 4 failing suites for rc1`
+
+---
+
+### Task 1.2 — Deploy real legal URLs (Privacy Policy + Terms)
+
+1. Create `legal/` at repo root with:
+   - `legal/privacy.md`
+   - `legal/terms.md`
+   - `legal/index.html` (simple landing page linking both)
+2. Generate the two pages from the placeholders currently referenced in code. Use the existing draft if present in `docs/`; otherwise generate a standard Flutter-app privacy policy covering: data collected (device ID, crash logs, ad IDs), Monetag SDK, stream caching, contact email `legal@lumio.app`.
+3. Add `.github/workflows/pages.yml` that publishes `legal/` to GitHub Pages on push to `main`.
+4. Replace **every** placeholder URL in the codebase. Search for:
+   ```
+   grep -rn "example.com\|TODO.*privacy\|TODO.*terms\|placeholder" lib/
+   ```
+   Replace with:
+   - Privacy: `https://<org>.github.io/lumio/privacy.html`
+   - Terms: `https://<org>.github.io/lumio/terms.html`
+   
+   Use a single constants file `lib/core/constants/legal_urls.dart` exposing `kPrivacyPolicyUrl` and `kTermsOfServiceUrl`. Refactor all call sites to use these constants.
+
+**Acceptance:** No placeholder URLs left (`grep` returns nothing in `lib/`). Pages workflow file is valid YAML.
+
+**Commit:** `feat(legal): real privacy + terms URLs via GH Pages`
+
+---
+
+### Task 1.3 — Deploy `STREAM_TOKEN_BASE_URL` backend (Cloudflare Worker)
+
+1. Create `backend/stream-token-worker/` with:
+   - `wrangler.toml`
+   - `src/index.ts`
+   - `package.json` (only `wrangler` as devDep)
+   - `README.md` with deploy steps
+2. The Worker exposes:
+   - `POST /v1/token` — body `{ "streamId": string, "deviceId": string }` → returns `{ "token": string, "expiresAt": number }`.
+   - Token is HMAC-SHA256 of `streamId|deviceId|expiresAt` using secret `TOKEN_SECRET` (set via `wrangler secret put`).
+   - TTL = 5 minutes.
+   - Rate limit: 60 req/min per `deviceId` using Cloudflare's `RATE_LIMITER` binding.
+3. Update Flutter code:
+   - In `lib/core/config/env.dart` (create if missing), read `STREAM_TOKEN_BASE_URL` from `String.fromEnvironment('STREAM_TOKEN_BASE_URL')`.
+   - Replace any hardcoded token URL in the stream service.
+4. Update `.github/workflows/release_apk.yml` to pass `--dart-define=STREAM_TOKEN_BASE_URL=${{ secrets.STREAM_TOKEN_BASE_URL }}`.
+
+**Acceptance:** `flutter build apk --dart-define=STREAM_TOKEN_BASE_URL=https://test.example` succeeds. Worker `README.md` documents `wrangler deploy`.
+
+**Commit:** `feat(stream): token worker + wire STREAM_TOKEN_BASE_URL`
+
+---
+
+### Task 1.4 — Wire SSL pins into CI
+
+1. Locate the SSL pinning config (likely in `lib/core/network/` — search for `sha256/` or `certificatePinner`).
+2. Move pin values out of source into `--dart-define`:
+   - `SSL_PIN_PRIMARY`
+   - `SSL_PIN_BACKUP`
+3. Add to `.github/workflows/release_apk.yml` build step:
+   ```yaml
+   --dart-define=SSL_PIN_PRIMARY=${{ secrets.SSL_PIN_PRIMARY }}
+   --dart-define=SSL_PIN_BACKUP=${{ secrets.SSL_PIN_BACKUP }}
+   ```
+4. Add a fail-fast check in `main.dart`: if either pin is empty in release mode, throw before `runApp`.
+5. Document the pin rotation procedure in `docs/security/ssl_pinning.md`.
+
+**Acceptance:** Debug build still works with empty pins. Release build aborts if pins missing. CI workflow references both secrets.
+
+**Commit:** `chore(ci): inject SSL pins via dart-define`
+
+---
+
+### Task 1.5 — Remove Monetag default zones from source
+
+1. Search: `grep -rn "monetag\|zoneId\|MONETAG" lib/`
+2. Move every hardcoded zone ID into `--dart-define`:
+   - `MONETAG_ZONE_INTERSTITIAL`
+   - `MONETAG_ZONE_REWARDED`
+   - `MONETAG_ZONE_BANNER`
+   - `MONETAG_ZONE_NATIVE`
+3. Create `lib/core/ads/monetag_config.dart` reading them via `String.fromEnvironment` with **empty string defaults** (not the real IDs).
+4. If a zone ID is empty at runtime, the corresponding ad call must short-circuit and log a warning — never crash.
+5. Add to `.github/workflows/release_apk.yml`.
+6. Update `.gitignore` and add `docs/security/secrets.md` listing every required dart-define.
+
+**Acceptance:** `grep -rn "<actual_zone_id_prefix>" lib/` returns nothing. App runs in debug with empty zones (ads silently disabled).
+
+**Commit:** `chore(ads): externalize Monetag zone IDs`
+
+---
+
+### Task 1.6 — Tag rc1
+
+```bash
+flutter analyze
+flutter test
+git tag v1.0.0-rc1
+```
+
+Update `CHANGELOG.md` with all P0 fixes under `## [1.0.0-rc1]`.
+
+**Commit:** `chore: release v1.0.0-rc1`
+
+---
+
+## PHASE 2 — P1 (after rc1 ships)
+
+### Task 2.1 — Migrate 136+ HTTP stream URLs to HTTPS
+
+1. Generate the full list: `grep -rn "http://" lib/ assets/ > docs/release/http_urls.txt`.
+2. Categorize in `docs/release/http_audit.md`:
+   - **A**: provider supports HTTPS → swap scheme.
+   - **B**: provider HTTPS-only on different host → update host + scheme.
+   - **C**: HTTP-only legacy → route through the stream-token Worker as a TLS-terminating proxy (extend Worker with `/v1/proxy?url=…` signed endpoint).
+3. Add a unit test `test/security/no_cleartext_test.dart` that fails if any `http://` literal exists in `lib/` outside an allowlist file `lib/core/network/cleartext_allowlist.dart`.
+4. In `AndroidManifest.xml`, set `android:usesCleartextTraffic="false"` and remove any cleartext network security config exceptions for migrated hosts.
+
+**Acceptance:** Cleartext test passes. App still plays every stream category in manual QA.
+
+**Commit:** `security: migrate stream URLs to HTTPS`
+
+---
+
+### Task 2.2 — Integrate a licensed CMP (Google UMP)
+
+1. Add dependency: `google_mobile_ads` already present → add `package:google_mobile_ads/google_mobile_ads.dart` ConsentInformation usage. If not present, add `google_mobile_ads: ^5.1.0`.
+2. Create `lib/core/consent/consent_manager.dart`:
+   - `Future<void> requestConsent()` — call on app start, after splash.
+   - `Future<void> showPrivacyOptionsForm()` — wired to a Settings entry "Privacy choices".
+   - `bool get canRequestAds`.
+3. Gate **all** Monetag + AdMob initialization behind `canRequestAds`.
+4. Add tests for the consent state machine using fake UMP responses.
+5. Document in `docs/legal/cmp.md`: GDPR + Google UMP requirements, how to update the published message in AdMob console.
+
+**Acceptance:** First-launch in EEA region (manual test with VPN) shows consent form. Refusing consent disables ads but app remains functional.
+
+**Commit:** `feat(consent): integrate Google UMP CMP`
+
+---
+
+### Task 2.3 — Break apart God files
+
+**Order matters. Do not reorder.**
+
+#### 2.3.a — `app_provider.dart` first
+
+Split into:
+- `lib/state/auth/auth_provider.dart`
+- `lib/state/settings/settings_provider.dart`
+- `lib/state/playback/playback_provider.dart`
+- `lib/state/connectivity/connectivity_provider.dart`
+- `lib/state/app_lifecycle/app_lifecycle_provider.dart`
+
+Rules:
+- Each new provider owns its own state class + notifier.
+- `app_provider.dart` becomes a thin re-export shim for one release cycle (so call sites keep compiling), marked `@Deprecated('Use specific providers. Remove after v1.1')`.
+- Update at least the top 10 call sites per provider to import the new path.
+
+Run after split: `flutter analyze && flutter test`.
+
+**Commit:** `refactor(state): decompose app_provider into 5 domain providers`
+
+#### 2.3.b — `player_screen.dart` next
+
+Split into:
+- `lib/features/player/view/player_screen.dart` (layout shell only)
+- `lib/features/player/view/widgets/player_controls.dart`
+- `lib/features/player/view/widgets/player_track_info.dart`
+- `lib/features/player/view/widgets/player_quality_selector.dart`
+- `lib/features/player/view/widgets/player_cast_button.dart`
+- `lib/features/player/view/widgets/player_gestures.dart`
+- `lib/features/player/controller/player_controller.dart` (all state/business logic moved here)
+
+Rules:
+- `player_screen.dart` after refactor must be **under 300 lines**.
+- No widget file over 250 lines.
+- Controller is testable in isolation; add at minimum 5 unit tests for it.
+
+**Commit:** `refactor(player): split player_screen into widgets + controller`
+
+---
+
+### Task 2.4 — Harden WebView ads (restrict JS)
+
+1. Find WebView usage for ads: `grep -rn "WebView\|webview_flutter" lib/`.
+2. For each ad WebView:
+   - Set `JavaScriptMode.unrestricted` → **only** if absolutely required; otherwise `JavaScriptMode.disabled`.
+   - Add a `NavigationDelegate` with a strict allowlist of hosts (Monetag + your own domains). Block everything else and log.
+   - Inject a `JavaScriptChannel` named `LumioBridge` that only exposes 2 methods: `adLoaded()`, `adClicked()`. No `eval`-style passthrough.
+   - Disable file access: `setAllowFileAccess(false)`, `setAllowContentAccess(false)`.
+   - On Android, set `setMixedContentMode(MIXED_CONTENT_NEVER_ALLOW)`.
+3. Create `lib/core/ads/webview_ad_host.dart` as the **only** entry point for ad WebViews. Refactor existing ad widgets to use it.
+4. Add widget tests verifying the allowlist blocks an off-allowlist URL.
+
+**Acceptance:** Manual test — ads still render. Navigating to a non-allowlisted URL inside the ad WebView is blocked and logged.
+
+**Commit:** `security(ads): sandbox WebView ad rendering`
+
+---
+
+## PHASE 3 — Final verification
+
+```bash
+flutter analyze
+flutter test --coverage
+flutter build apk --release \
+  --dart-define=STREAM_TOKEN_BASE_URL=$STREAM_TOKEN_BASE_URL \
+  --dart-define=SSL_PIN_PRIMARY=$SSL_PIN_PRIMARY \
+  --dart-define=SSL_PIN_BACKUP=$SSL_PIN_BACKUP \
+  --dart-define=MONETAG_ZONE_INTERSTITIAL=$MONETAG_ZONE_INTERSTITIAL \
+  --dart-define=MONETAG_ZONE_REWARDED=$MONETAG_ZONE_REWARDED \
+  --dart-define=MONETAG_ZONE_BANNER=$MONETAG_ZONE_BANNER \
+  --dart-define=MONETAG_ZONE_NATIVE=$MONETAG_ZONE_NATIVE
+```
+
+Update `CHANGELOG.md` with all P1 items under `## [1.1.0]`. Tag `v1.1.0` only after manual QA sign-off.
+
+---
+
+## Reporting back
+
+After each Phase, output a short report:
+
+```
+PHASE X COMPLETE
+- Tasks done: X.1, X.2, …
+- Tests: passing/failing counts
+- Files changed: N
+- Outstanding issues: <list or "none">
+```
+
+Stop and wait for human confirmation between Phase 1 and Phase 2.
+
+---
+
+এই prompt টা পুরোটা Cursor এ paste করে দাও — ও step-by-step ধরে ধরে কাজ করবে, প্রতিটার পরে commit করবে, আর phase শেষ হলে রিপোর্ট দিবে। কোনো step এ আটকালে আমাকে বলো, ওই section টা আরো detailed করে দিবো।
