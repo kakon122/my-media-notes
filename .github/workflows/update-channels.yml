@@ -1,0 +1,28 @@
+name: Update IPTV Channels
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'my-media-notes.m3u8'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install appwrite requests
+
+      - name: Run migration
+        env:
+          APPWRITE_API_KEY: ${{ secrets.APPWRITE_API_KEY }}
+          APPWRITE_PROJECT_ID: ${{ secrets.APPWRITE_PROJECT_ID }}
+        run: python migrate_action.py
