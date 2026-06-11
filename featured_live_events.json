@@ -15,15 +15,15 @@
       "matchDate": "2026-07-19T18:00:00.000Z",
       "channels": [
         {
-          "name": "T Sports",
+          "name": "FIFA WCP2026",
           "url": "https://tvsen7.aynaott.com/tsports-hd/tracks-v1a1/mono.ts.m3u8"
         },
         {
-          "name": "Sony Ten 1",
-          "url": "https://backup.m3u8",
+          "name": "BEIN SPORTS",
+          "url": "https://amg01334-beinsportsllc-beinxtraesp-localnow-aekzc.amagi.tv/playlistR720P.m3u8",
           "alternateStreams": [
             {
-              "url": "https://hd-backup.m3u8",
+              "url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/360p-vtt/index.m3u8",
               "label": "HD"
             }
           ]
@@ -34,22 +34,22 @@
       "id": "wc26-sf-1",
       "sport": "football",
       "tournament": "FIFA World Cup 2026 — Semi Final",
-      "teamA": "France",
-      "teamB": "Germany",
+      "teamA": "BRAZIL",
+      "teamB": "MOROCCO",
       "status": "upcoming",
       "time": "21:00 BDT",
-      "matchDate": "2026-07-14T18:00:00.000Z",
+      "matchDate": "",
       "channels": [
         {
           "name": "T Sports",
           "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8"
         },
         {
-          "name": "Sony Ten 1",
-          "url": "https://backup.m3u8",
+          "name": "CAZE TV",
+          "url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/360p-vtt/index.m3u8",
           "alternateStreams": [
             {
-              "url": "https://hd-backup.m3u8",
+              "url": "BEIN SPORTS",
               "label": "HD"
             }
           ]
