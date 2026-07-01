@@ -1,5 +1,117 @@
 #EXTM3U
 # CATEGORY: Sports
+
+#EXTINF:-1 tvg-id="bioscope-fifa" tvg-name="BIOSCOPE+ (FIFA)" tvg-logo="" group-title="Bangladeshi",📡 BIOSCOPE+ (FIFA) 🔴 ফ্রি · সারা দেশে
+https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index_1.m3u8
+
+#EXTINF:-1 tvg-id="toffee-fifa" tvg-name="Toffee World Cup" tvg-logo="" group-title="Bangladeshi",📰 Toffee World Cup 🔴 লাইভ (token expires soon - remove after event)
+https://toffee-proxy.shahriar-diu64.workers.dev/https://prod-cdn01-live.toffeelive.com/live/FIFA-2026/sst/0/master_1500.m3u8?hdntl=Expires=1782987569~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AeQsclD8E49TKJaioAwFJMUnGas8vyrFS1xrDoQoYIpVkaFGVB9nWJHjO_eeWQ5uRmmQuoCmVj_sgwUqfi-Z-ci98FUD
+
+#EXTINF:-1 tvg-id="t-sports" tvg-name="Desh Sports" tvg-logo="" group-title="Bangladeshi",🏆 Desh SPORTS 🔴 লাইভ
+https://hd2.ctghub.com/T-Sports/index.m3u8
+
+#EXTINF:-1 tvg-id="somoy-tv-fifa" tvg-name="Somoy TV FIFA" tvg-logo="" group-title="Bangladeshi",🌊 SOMOY TV FIFA 🔴 সংবাদ
+https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
+
+#EXTINF:-1 tvg-id="i-screen" tvg-name="i-Screen" tvg-logo="" group-title="Bangladeshi",📡 i-Screen 🔴 বিনোদন
+https://tahmidx.cinemoja2.workers.dev/live/FIFA-2026-4/0/master_2000.m3u8
+
+#EXTINF:-1 tvg-id="tapmad" tvg-name="Tapmad" tvg-logo="" group-title="Bangladeshi",🌀 TAPMAD 🔴 লাইভ
+https://saseries.akamaized.net/hls/live/2110097/ICCt20-tapmad/level_1.m3u8
+
+#EXTINF:-1 tvg-id="gopal-bhar" tvg-name="Gopal Bhar" tvg-logo="" group-title="Bangladeshi",🎬 গোপাল ভাঁড় (live stream) 🔴 বিনোদন
+https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8
+
+#EXTINF:-1 tvg-id="soco-fifa" tvg-name="SOCO Live FIFA" tvg-logo="" group-title="Sports",🏆 SOCO LIVE FIFA
+https://pull.niues.live/live/stream-9912108_lhd.m3u8?auth_key=1782234982-0-0-2455aafc2b9f6b9d2cd3228dabb3d198
+
+#EXTINF:-1 tvg-id="itc-canada" tvg-name="ITC Canada" tvg-logo="" group-title="Sports",🎥 ITC CANADA
+https://live.666666.zip/migu/1.m3u8
+
+#EXTINF:-1 tvg-id="korra-city" tvg-name="Korra City" tvg-logo="" group-title="Sports",⚽ korra city
+https://vr.kooraa17.cfd/homng1_720/index.m3u8
+
+#EXTINF:-1 tvg-id="korra-city-2" tvg-name="Korra City 2" tvg-logo="" group-title="Sports",📡 CORRA CiTY 2
+https://vr.kooraa17.cfd/homng1_360/index.m3u8
+
+#EXTINF:-1 tvg-id="cctv5" tvg-name="CCTV 5" tvg-logo="" group-title="Sports",🇨🇳 cctv 5
+https://play.gzxdby.com/live/183334344568_2547627555_1080p.m3u8
+
+#EXTINF:-1 tvg-id="tsn4" tvg-name="TSN 4" tvg-logo="" group-title="Sports",⚽ TsN 4
+https://a75.azplay40.me/hls/streama262531/index.m3u8?cst=3dd97923a992035a3ee9efe489cf1553
+
+#EXTINF:-1 tvg-id="bein1-ar" tvg-name="Bein Sports 1 Arabic" tvg-logo="" group-title="Sports",🇸🇦 Bein Sports 1 (Arabic)
+https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8
+
+#EXTINF:-1 tvg-id="tsn1" tvg-name="TSN 1" tvg-logo="" group-title="Sports",🎙️ TSN 1
+https://pub-85819be5176c4d29bb0ce67fa13e15ab.r2.dev/en/index.m3u8
+
+#EXTINF:-1 tvg-id="bein-direct" tvg-name="BeIN Sports Direct" tvg-logo="" group-title="Sports",🏆 BeIN Sports Direct
+https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
+
+#EXTINF:-1 tvg-id="cctv5-plus" tvg-name="CCTV 5+" tvg-logo="" group-title="Sports",🇦🇷 CC TV 5+
+https://play1.gzxdby.com/live/963237627278_2391830328_1080p.m3u8
+
+#EXTINF:-1 tvg-id="corax90" tvg-name="Corax 90" tvg-logo="" group-title="Sports",🇦🇷 CORAX 90
+https://1.simoplay.com/my-hls/h9asfma10d5.m3u8
+
+#EXTINF:-1 tvg-id="manson-sports" tvg-name="Manson Sports" tvg-logo="" group-title="Sports",🏟️ Manson Sports
+https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8
+
+#EXTINF:-1 tvg-id="caze-tv" tvg-name="Caze TV" tvg-logo="" group-title="Sports",🇧🇷 Caze TV
+https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8
+
+#EXTINF:-1 tvg-id="dazn-direct" tvg-name="Dazn Direct" tvg-logo="" group-title="Sports",🎯 Dazn Direct
+https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8
+
+#EXTINF:-1 tvg-id="tpv-sport" tvg-name="TPV Sport" tvg-logo="" group-title="Sports",🏅 TPV Sport
+https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8
+
+#EXTINF:-1 tvg-id="d-sports" tvg-name="D Sports" tvg-logo="" group-title="Sports",🏆 D Sports
+https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8
+
+#EXTINF:-1 tvg-id="migu1-fifa" tvg-name="MiGU 1 FIFA" tvg-logo="" group-title="Sports",🕛 MiGU 1 FIFA
+https://pullsgp.yyzb456.top/live/stream-698168_lhd.m3u8
+
+#EXTINF:-1 tvg-id="fifa-live" tvg-name="FIFA Live" tvg-logo="" group-title="Sports",⚽ FIFA Live
+https://pub-834eb2e520a04905b6d7b7bb7e84d277.r2.dev/en/index.m3u8
+
+#EXTINF:-1 tvg-id="tsn4-alt" tvg-name="TSN 4 Alt" tvg-logo="" group-title="Sports",📡 TSN 4
+https://ataide0.nawapholengineering.co.th/tsn.m3u8
+
+#EXTINF:-1 tvg-id="real-madrid-tv" tvg-name="Real Madrid TV" tvg-logo="" group-title="Sports",⚽ Real Madrid TV
+https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/bitrate_3.m3u8
+
+#EXTINF:-1 tvg-id="laliga-inside" tvg-name="LALIGA Inside" tvg-logo="" group-title="Sports",🇪🇸 LALIGA Inside
+https://d3bb58xoj568xi.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-don7i7nmbho0q/a5faafd1-5d98-4fe1-996c-c33206fd3324/3.m3u8
+
+#EXTINF:-1 tvg-id="fifa-plus" tvg-name="FIFA +" tvg-logo="" group-title="Sports",🏆 FIFA +
+https://a62dad94.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/bf2e2c08-6355-4c5a-8d38-e6f4470a558d/0.m3u8
+
+#EXTINF:-1 tvg-id="willow-sports" tvg-name="Willow Sports" tvg-logo="" group-title="Sports",🏏 WILLOW SPORTS
+https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8
+
+#EXTINF:-1 tvg-id="elta-fifa" tvg-name="ELTA FIFA" tvg-logo="" group-title="Sports",⚽ ELTA (FIFA)
+https://live.wxinxi.com/live/86597104_okehlpipbdoz2lujaxkrvv9eylmlbduv.m3u8
+
+#EXTINF:-1 tvg-id="win-sports" tvg-name="Win Sports" tvg-logo="" group-title="Sports",🏆 Win Sports
+https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8
+
+#EXTINF:-1 tvg-id="telemundo" tvg-name="Telemundo" tvg-logo="" group-title="Sports",📺 Telemundo
+https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8
+
+#EXTINF:-1 tvg-id="tudn-sports" tvg-name="TUDN Sports" tvg-logo="" group-title="Sports",⚽ TUDN Sports
+https://1nyaler.streamhostingcdn.top/stream/52/index.m3u8
+
+#EXTINF:-1 tvg-id="migu2" tvg-name="MIGU 2" tvg-logo="" group-title="Sports",📡 MIGU 2
+https://play1.gzxdby.com/live/156460118051_5644511558_1080p.m3u8
+
+#EXTINF:-1 tvg-id="fifa3" tvg-name="FIFA 3" tvg-logo="" group-title="Sports",⚽ FIFA 3
+https://a62dad94.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/e72e3606-f8f9-4f8e-96e4-355ec0170126/2.m3u8
+
+#EXTINF:-1 tvg-id="m6-france" tvg-name="M6 France" tvg-logo="" group-title="Sports",🇫🇷 M6 FRANCE
+https://tfwz3gr3uomttgr31hp3tfa3dqmmeqfsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/hqlive.yarncdn.live/live/hqtv_blv_phanma/playlist.m3u8?wsSession=3389cfe769edf9bcd6f19c64-178223213606042&wsIPSercert=474a89181ce264d3328bf31cb23b0443&wsBindIP=2&wsserid=1168201446950356247
+
 #EXTINF:-1 tvg-name="Caze TV 1080P" group-title="Sports",Caze TV 1080P
 https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8
 
