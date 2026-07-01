@@ -16,14 +16,14 @@
       "channels": [
         {
           "name": "FIFA WCP2026",
-          "url": "https://tvsen7.aynaott.com/tsports-hd/tracks-v1a1/mono.ts.m3u8"
+          "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8"
         },
         {
-          "name": "BEIN SPORTS",
-          "url": "https://amg01334-beinsportsllc-beinxtraesp-localnow-aekzc.amagi.tv/playlistR720P.m3u8",
+          "name": "SOCO LIVE FIFA",
+          "url": "https://pull.niues.live/live/stream-9912108_lhd.m3u8?auth_key=1782234982-0-0-2455aafc2b9f6b9d2cd3228dabb3d198",
           "alternateStreams": [
             {
-              "url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/360p-vtt/index.m3u8",
+              "url": "https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8",
               "label": "HD"
             }
           ]
@@ -41,15 +41,15 @@
       "matchDate": "",
       "channels": [
         {
-          "name": "T Sports",
-          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8"
+          "name": "BEIN ARABIC",
+          "url": "https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8"
         },
         {
           "name": "CAZE TV",
-          "url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/360p-vtt/index.m3u8",
+          "url": "https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8",
           "alternateStreams": [
             {
-              "url": "BEIN SPORTS",
+              "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
               "label": "HD"
             }
           ]
@@ -60,8 +60,8 @@
       "id": "wc26-sf-2",
       "sport": "football",
       "tournament": "FIFA World Cup 2026 — Semi Final",
-      "teamA": "Spain",
-      "teamB": "England",
+      "teamA": "BRAZIL",
+      "teamB": "Norway",
       "status": "upcoming",
       "time": "00:30 BDT",
       "matchDate": "2026-07-15T21:30:00.000Z",
@@ -71,11 +71,11 @@
           "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8"
         },
         {
-          "name": "Sony Ten 1",
-          "url": "https://backup.m3u8",
+          "name": "Willow Cricket",
+          "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
           "alternateStreams": [
             {
-              "url": "https://hd-backup.m3u8",
+              "url": "https://a62dad94.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/e72e3606-f8f9-4f8e-96e4-355ec0170126/2.m3u8",
               "label": "HD"
             }
           ]
